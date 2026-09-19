@@ -1,0 +1,376 @@
+{
+ "page": 5,
+ "sections": [
+  "Brochetas",
+  "Platos calientes",
+  "Platos al vapor"
+ ],
+ "items": [
+  {
+   "section": "Brochetas",
+   "num": "1001",
+   "name": "De gamba",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Brochetas",
+   "num": "1002",
+   "name": "De pollo",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Brochetas",
+   "num": "1003",
+   "name": "De cerdo estilo mongol",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Brochetas",
+   "num": "1004",
+   "name": "De calamar",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Brochetas",
+   "num": "1005",
+   "name": "De sepia",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2001",
+   "name": "Gyozas",
+   "description": "",
+   "pieces": "6 pzs",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed"
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2002",
+   "name": "Gambas con salsa de ajo",
+   "description": "",
+   "pieces": "4 pzs",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2003",
+   "name": "Gambas con salsa de Sambal",
+   "description": "",
+   "pieces": "4 pzs",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2004",
+   "name": "Ternera seta y bambu",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2005",
+   "name": "Ternera sichuan",
+   "description": "",
+   "pieces": "",
+   "spicy": 2,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Printed \"Picante ++\""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2006",
+   "name": "Ternera hongkong",
+   "description": "",
+   "pieces": "",
+   "spicy": 1,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Printed \"Picante +\""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2007",
+   "name": "Pollo estilo taiwan",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2008",
+   "name": "Pollo curry",
+   "description": "",
+   "pieces": "",
+   "spicy": 1,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Printed \"Picante +\""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2009",
+   "name": "Pollo hongkong",
+   "description": "",
+   "pieces": "",
+   "spicy": 1,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Printed \"Picante +\""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2010",
+   "name": "Pollo sichuan",
+   "description": "",
+   "pieces": "",
+   "spicy": 2,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Printed \"Picante ++\""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2011",
+   "name": "Almejas",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2012",
+   "name": "Rollito Pato Pekín",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2013",
+   "name": "Pollo al limón",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos calientes",
+   "num": "2014",
+   "name": "Gambas con fideo de patata",
+   "description": "",
+   "pieces": "4 pzs",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos al vapor",
+   "num": "3001",
+   "name": "Arroz integral rojo",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed"
+  },
+  {
+   "section": "Platos al vapor",
+   "num": "3002",
+   "name": "Xiaolongbao",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos al vapor",
+   "num": "3003",
+   "name": "Siumai",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos al vapor",
+   "num": "3004",
+   "name": "jakao",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Name printed in lowercase \"jakao\" (har gow)"
+  },
+  {
+   "section": "Platos al vapor",
+   "num": "3005",
+   "name": "Vieira",
+   "description": "",
+   "pieces": "1 pzs. Max.2 pzs/persona",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos al vapor",
+   "num": "3006",
+   "name": "Bao de pato",
+   "description": "",
+   "pieces": "1 pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Platos al vapor",
+   "num": "3007",
+   "name": "Bao de pollo",
+   "description": "",
+   "pieces": "1 pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  }
+ ],
+ "otherText": []
+}

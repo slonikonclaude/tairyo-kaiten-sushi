@@ -1,0 +1,398 @@
+{
+ "page": 4,
+ "sections": [
+  "Futomaki",
+  "Entrantes",
+  "Sopa",
+  "Arroces y tallarines",
+  "Fritos"
+ ],
+ "items": [
+  {
+   "section": "Futomaki",
+   "num": "501",
+   "name": "Futomaki roll original",
+   "description": "Roll gigante de alga y arroz, envuelto de salmon, atun, pez mantequilla y surimi.",
+   "pieces": "8 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8 pzs\" printed in red at the end of the italic description line. The number \"502.\" is printed level with the second line of this description, so it sits visually offset from its item."
+  },
+  {
+   "section": "Futomaki",
+   "num": "502",
+   "name": "Futomaki roll rebozado",
+   "description": "Roll gigante rebozado de alga y arroz, envuelto de salmon, atun, pez mantequilla y surimi.",
+   "pieces": "8 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8 pzs\" printed in red at the end of the italic description line."
+  },
+  {
+   "section": "Entrantes",
+   "num": "601",
+   "name": "Wakame",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Entrantes",
+   "num": "602",
+   "name": "Edamame",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icon printed."
+  },
+  {
+   "section": "Entrantes",
+   "num": "603",
+   "name": "Ensalada de alga fresca",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Entrantes",
+   "num": "604",
+   "name": "Ensalada de marisco",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Entrantes",
+   "num": "605",
+   "name": "Carpaccio shake",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Entrantes",
+   "num": "606",
+   "name": "Mejillones",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Entrantes",
+   "num": "607",
+   "name": "Púlpitos al estilo tailandes",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Only a fish icon is printed (no mollusc icon), even though the dish is baby octopus."
+  },
+  {
+   "section": "Sopa",
+   "num": "701",
+   "name": "Miso",
+   "description": "Base de miso, con doufu, alga, champiñon, setas shiitake",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icon printed."
+  },
+  {
+   "section": "Sopa",
+   "num": "702",
+   "name": "Tom yum",
+   "description": "Almeja, hierba de limon, cebolla, jengibre, pimiento, limón",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Arroces y tallarines",
+   "num": "801",
+   "name": "Arroz frito con soja",
+   "description": "Zanahoria, maíz, guisantes, huevo, bacon",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "soja",
+    "huevos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Arroces y tallarines",
+   "num": "802",
+   "name": "Arroz tailandes",
+   "description": "Piña, guisante, gamba, zanahoria",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "The crab icon is printed on the description line, not the name line."
+  },
+  {
+   "section": "Arroces y tallarines",
+   "num": "803",
+   "name": "Tallarines Con verdura y huevo",
+   "description": "Con verdura y huevo",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "huevos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Arroces y tallarines",
+   "num": "804",
+   "name": "Wudong Con verdura y huevo",
+   "description": "Con verdura y huevo",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "huevos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Arroces y tallarines",
+   "num": "805",
+   "name": "Fideos de trigo sarraceno",
+   "description": "Verdura y salsa de sésamo",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "901",
+   "name": "Rollitos vegetal",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "902",
+   "name": "Rollitos de marisco",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "903",
+   "name": "Rollitos vietnam",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "904",
+   "name": "Wantun de queso",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "lacteos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "905",
+   "name": "Empanadillas de pollo curry",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "906",
+   "name": "Pan frito",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "907",
+   "name": "Alitas de pollo",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "908",
+   "name": "Tempura de langostino",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "909",
+   "name": "Tempura de langostino envuelto de fideo",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "The allergen icons are printed on the \"2pzs\" line because the name fills the whole line."
+  },
+  {
+   "section": "Fritos",
+   "num": "910",
+   "name": "Takoyakis",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "911",
+   "name": "Costillas",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  }
+ ],
+ "otherText": []
+}

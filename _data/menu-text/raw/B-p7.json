@@ -1,0 +1,121 @@
+{
+ "page": 7,
+ "sections": [
+  "Fuera de buffet — Tartar",
+  "Fuera de buffet — Postre"
+ ],
+ "items": [
+  {
+   "section": "Fuera de buffet — Tartar",
+   "num": "7001",
+   "name": "Salmón",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "soja",
+    "sesamo"
+   ],
+   "price": 5.5,
+   "priceText": "5,5€",
+   "notes": "Left column of Tartar row."
+  },
+  {
+   "section": "Fuera de buffet — Tartar",
+   "num": "7002",
+   "name": "Atún",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "soja",
+    "sesamo"
+   ],
+   "price": 5.5,
+   "priceText": "5,5€",
+   "notes": "Right column of Tartar row."
+  },
+  {
+   "section": "Fuera de buffet — Postre",
+   "num": "8001",
+   "name": "Mochis Cream",
+   "description": "Sabores a consultar",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "lacteos",
+    "gluten",
+    "huevos",
+    "sesamo"
+   ],
+   "price": 4.5,
+   "priceText": "4,5€",
+   "notes": "Postre items are laid out in paired rows (8001 left / 8002 right, 8003 left / 8004 right, then Dorayaki centred), so they are listed in numeric/row order."
+  },
+  {
+   "section": "Fuera de buffet — Postre",
+   "num": "8002",
+   "name": "Tarta de Queso",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "lacteos",
+    "huevos"
+   ],
+   "price": 4.95,
+   "priceText": "4,95€",
+   "notes": ""
+  },
+  {
+   "section": "Fuera de buffet — Postre",
+   "num": "8003",
+   "name": "Tarta de queso vasca de Matcha",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "lacteos",
+    "huevos"
+   ],
+   "price": 4.95,
+   "priceText": "4,95€",
+   "notes": "Name printed on two lines: \"Tarta de queso\" / \"vasca de Matcha\"."
+  },
+  {
+   "section": "Fuera de buffet — Postre",
+   "num": "8004",
+   "name": "Helados",
+   "description": "Sabores: té matcha , judía roja y sésamo.",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "lacteos",
+    "huevos"
+   ],
+   "price": 2.5,
+   "priceText": "2,50€",
+   "notes": "Description printed with a space before the comma (\"té matcha , judía roja\"). No sesame icon is printed even though sésamo is listed as a flavour."
+  },
+  {
+   "section": "Fuera de buffet — Postre",
+   "num": "8003",
+   "name": "Dorayaki",
+   "description": "relleno de judía roja",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "lacteos",
+    "huevos"
+   ],
+   "price": 3.5,
+   "priceText": "3,50€",
+   "notes": "The number 8003 is printed twice on this page: it is used for both Tarta de queso vasca de Matcha and Dorayaki (probably meant to be 8005). Dorayaki is centred at the bottom of the page."
+  }
+ ],
+ "otherText": [
+  "FUERA DE BUFFET (red banner at top of page)"
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "page": 8,
+ "sections": [
+  "Bebidas sin alcohol",
+  "Bebidas con alcohol",
+  "Vino tinto"
+ ],
+ "items": [
+  {"section": "Bebidas sin alcohol", "num": "9001", "name": "Agua 50cl", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 2.5, "priceText": "2,5€", "notes": ""},
+  {"section": "Bebidas sin alcohol", "num": "9002", "name": "Agua vichi", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.3, "priceText": "3,3€", "notes": ""},
+  {"section": "Bebidas sin alcohol", "num": "9003", "name": "Coca Cola original", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.2, "priceText": "3,2€", "notes": ""},
+  {"section": "Bebidas sin alcohol", "num": "9004", "name": "Coca Cola zero", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.2, "priceText": "3,2€", "notes": ""},
+  {"section": "Bebidas sin alcohol", "num": "9005", "name": "Fanta naranja", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.2, "priceText": "3,2€", "notes": ""},
+  {"section": "Bebidas sin alcohol", "num": "9006", "name": "Fanta limon", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.2, "priceText": "3,2€", "notes": "'limon' printed without accent (sic)"},
+  {"section": "Bebidas sin alcohol", "num": "9007", "name": "Aquarius naranja", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.5, "priceText": "3,5€", "notes": ""},
+  {"section": "Bebidas sin alcohol", "num": "9008", "name": "Aquarius limon", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.5, "priceText": "3,5€", "notes": "Top of the right column of the section; 'limon' printed without accent (sic)"},
+  {"section": "Bebidas sin alcohol", "num": "9009", "name": "Nestea", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.5, "priceText": "3,5€", "notes": ""},
+  {"section": "Bebidas sin alcohol", "num": "9010", "name": "Sprite", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.5, "priceText": "3,5€", "notes": ""},
+  {"section": "Bebidas sin alcohol", "num": "9011", "name": "Tónica", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.5, "priceText": "3,5€", "notes": ""},
+  {"section": "Bebidas sin alcohol", "num": "9012", "name": "Ramune", "description": "Sabores a consultar", "pieces": "", "spicy": 0, "allergens": [], "price": 3.6, "priceText": "3,6€", "notes": "Sub-line printed in small upright (not italic) type under the name; kept as description (verified in crop)"},
+  {"section": "Bebidas sin alcohol", "num": "9013", "name": "Mogu mogu", "description": "Sabores a consultar", "pieces": "", "spicy": 0, "allergens": [], "price": 3.5, "priceText": "3,5€", "notes": "Sub-line printed in small upright (not italic) type under the name; kept as description"},
+  {"section": "Bebidas con alcohol", "num": "9014", "name": "Cerveza mahou 5 estrellas", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3, "priceText": "3,0€", "notes": ""},
+  {"section": "Bebidas con alcohol", "num": "9015", "name": "Cerveza mahou 0,0 tostada", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3, "priceText": "3,0€", "notes": ""},
+  {"section": "Bebidas con alcohol", "num": "9016", "name": "Estrella galicia", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.1, "priceText": "3,1€", "notes": ""},
+  {"section": "Bebidas con alcohol", "num": "9017", "name": "Cerveza japonesa sapooro", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.3, "priceText": "3,3€", "notes": "Printed 'sapooro' (sic, Sapporo), confirmed in crop"},
+  {"section": "Bebidas con alcohol", "num": "9018", "name": "Sake 150 ml", "description": "Para 1-2 personas", "pieces": "", "spicy": 0, "allergens": [], "price": 5.5, "priceText": "5,5€", "notes": "Top of the right column of the section; sub-line printed in small upright (not italic) type"},
+  {"section": "Bebidas con alcohol", "num": "9019", "name": "Sake 300 ml", "description": "Para 2-4 personas", "pieces": "", "spicy": 0, "allergens": [], "price": 7.5, "priceText": "7,5€", "notes": "Sub-line printed in small upright (not italic) type"},
+  {"section": "Bebidas con alcohol", "num": "9020", "name": "Sake koji 300ml", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 12.95, "priceText": "12,95€", "notes": "Small photo of a clear sake bottle (blue cap, blue kanji label) beside the item; '300ml' printed without space, unlike 'Sake 300 ml'"},
+  {"section": "Bebidas con alcohol", "num": "9021", "name": "Soju", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 12.95, "priceText": "12,95€", "notes": "Small photo of a green soju bottle (Korean label) beside the name"},
+  {"section": "Vino tinto", "num": "9022", "name": "Pata Negra Roble Toro", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 3.5, "priceText": "3,50€ / copa 10,90€ / botella", "notes": "Two prices: 3,50€ per glass (copa), 10,90€ per bottle (botella); price field holds the per-glass price"},
+  {"section": "Vino tinto", "num": "9023", "name": "Protos Roble Ribera del Duero", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 18.8, "priceText": "18,80€ / botella", "notes": ""},
+  {"section": "Vino tinto", "num": "9024", "name": "Marqués de Cáceres -crianza", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 18.5, "priceText": "18.50€ / botella", "notes": "Price printed with a dot decimal separator (18.50€), unlike the others; confirmed in tight crop"},
+  {"section": "Vino tinto", "num": "9025", "name": "Lambrusco Valmarone", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 10.95, "priceText": "10,95€ / botella", "notes": ""},
+  {"section": "Vino tinto", "num": "9026", "name": "El Coto Rioja - Crianza", "description": "", "pieces": "", "spicy": 0, "allergens": [], "price": 13.5, "priceText": "13,50€ / botella", "notes": ""}
+ ],
+ "otherText": [
+  "Drinks page: no allergen icons, no spicy markers and no 'FUERA DE BUFFET' banner are printed; every item is individually priced",
+  "Each item is preceded by a red brush-stroke bullet mark",
+  "Brush-font headings put a mark over the final O ('ALCÖHOL', 'TINTÖ'). This is part of the font design, not an accent; read as ALCOHOL / TINTO",
+  "The page's lower part (below 9026) holds only the seigaiha wave background, no text",
+  "carta2026/7.jpg matches the PNG exactly (same items, names and prices)"
+ ],
+ "disputes": [
+  "No disagreement in any content field (section, num, name, description, pieces, spicy, allergens, price, priceText): all 26 items match item-for-item in A and B, and each was confirmed against PNG crops (left1, right1, alc_left, alc_right, vino, p9024) and the carta2026/7.jpg page",
+  "9008 notes: A='Right column of the section' B='' → final keeps the layout note (true in crop, informational only)",
+  "9012/9013/9018/9019 notes: wording differs only ('small upright' vs 'small regular (not italic)') → final: 'small upright (not italic) type' (crop shows a light upright sans sub-line, not italic)",
+  "9020/9021 notes: bottle-photo wording differs only → final describes the photos as seen in crop alc_right",
+  "Allergen spot-check: the page has no allergen icons at all (checked full page and every row crop), so allergens stay [] for every item"
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "page": 6,
+ "sections": [
+  "Fuera de buffet — Sashimi",
+  "Fuera de buffet — Sushi / Nigiri",
+  "Fuera de buffet — Uramaki"
+ ],
+ "items": [
+  {
+   "section": "Fuera de buffet — Sashimi",
+   "num": "4001",
+   "name": "Salmón",
+   "description": "",
+   "pieces": "4ud.",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": 1,
+   "priceText": "+1€",
+   "notes": "Printed as \"4001.Salmón 4ud.\" with the unit count in the name line."
+  },
+  {
+   "section": "Fuera de buffet — Sashimi",
+   "num": "4002",
+   "name": "Atún",
+   "description": "",
+   "pieces": "4ud.",
+   "spicy": 0,
+   "allergens": [],
+   "price": 1,
+   "priceText": "+1€",
+   "notes": "Printed as \"4002. Atún 4ud.\". No allergen icon is printed for this item, not even the fish icon (checked at 3x zoom)."
+  },
+  {
+   "section": "Fuera de buffet — Sashimi",
+   "num": "4003",
+   "name": "Pez mantequilla",
+   "description": "",
+   "pieces": "4ud.",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": 1,
+   "priceText": "+1€",
+   "notes": "Printed as \"4003.Pez mantequilla 4ud.\" and centred below 4001/4002."
+  },
+  {
+   "section": "Fuera de buffet — Sushi / Nigiri",
+   "num": "5001",
+   "name": "Anguila",
+   "description": "",
+   "pieces": "2ud.",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": 1,
+   "priceText": "+1€",
+   "notes": "Printed as \"5001. Anguila 2ud.\"."
+  },
+  {
+   "section": "Fuera de buffet — Sushi / Nigiri",
+   "num": "5002",
+   "name": "Aguacate",
+   "description": "",
+   "pieces": "2ud.",
+   "spicy": 0,
+   "allergens": [],
+   "price": 1,
+   "priceText": "+1€",
+   "notes": "Printed as \"5002. Aguacate 2ud.\". No allergen icon is printed."
+  },
+  {
+   "section": "Fuera de buffet — Uramaki",
+   "num": "6001",
+   "name": "Anguila",
+   "description": "(anguila, aguacate, envuelto de anguila y sésamo)",
+   "pieces": "8ud.",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "sesamo"
+   ],
+   "price": 12.95,
+   "priceText": "12,95€",
+   "notes": "Printed as \"6001. Anguila 8ud.\". The second icon is a grey-olive circle with white seeds (sésamo)."
+  },
+  {
+   "section": "Fuera de buffet — Uramaki",
+   "num": "6002",
+   "name": "Anguila e inari",
+   "description": "(anguila, aguacate, envuelto de inari)",
+   "pieces": "8ud.",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": 12.95,
+   "priceText": "12,95€",
+   "notes": "Printed as \"6002. Anguila e inari 8ud.\"."
+  }
+ ],
+ "otherText": [
+  "FUERA DE BUFFET (big red brush banner at the top of the page)"
+ ]
+}

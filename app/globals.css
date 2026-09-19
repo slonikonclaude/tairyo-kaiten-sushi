@@ -1,0 +1,227 @@
+@import "tailwindcss";
+
+/**
+ * Токены из DESIGN.md §5. Хардкода цветов в компонентах нет — только эти
+ * переменные. Контраст каждой пары посчитан, значения — там же.
+ */
+@theme {
+  /* Светлые секции: бумага их карты (чуть теплее белого) и плотная бумага. */
+  --color-paper: #faf7f2;
+  --color-paper-deep: #f1eae0;
+  --color-line: #e4dace;
+
+  /* Тушь: текст (16,6:1 на paper) и тёмные секции. */
+  --color-ink: #1b1718;
+  --color-ink-soft: #2a2426;
+  --color-ink-line: #3d3537;
+  --color-muted: #5e5557;
+
+  /* Красный Tairyo — пипетка PDF-карты (#D32739): фон кнопок с белым текстом (5,1:1), мазки, крупный текст. */
+  --color-tairyo: #d32739;
+  /* Красный как текст на светлом (6,0:1 на paper) и hover кнопок. */
+  --color-tairyo-deep: #b81f31;
+  /* Красный как текст на туши (5,1:1). */
+  --color-tairyo-bright: #f0525f;
+
+  /* Цвета тарелок кайтэн (жёлтые, синие, розовые, зелёные — как на фото ленты): только декор ленты, не текст. */
+  --color-plate-yellow: #f2c230;
+  --color-plate-blue: #6f8fce;
+  --color-plate-pink: #eda3bd;
+  --color-plate-green: #8fc3a4;
+
+  --color-on-dark: #faf7f2;
+  --color-on-dark-muted: #b9aeaa;
+  --color-on-red: #ffffff;
+
+  --font-display: var(--font-dela), "Arial Black", ui-sans-serif, sans-serif;
+  --font-sans: var(--font-zen), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  scroll-behavior: smooth;
+  /* Якорные ссылки не загоняют заголовок под липкую шапку (h-18 = 4.5rem); scroll-mt у секций не ставится — он бы сложился с этим. */
+  scroll-padding-top: 4.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    scroll-behavior: auto;
+  }
+}
+
+/* Печать без прокрутки: блоки ниже экрана ещё не «проявились» — показываем всё. */
+@media print {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .cinta {
+    display: none !important;
+  }
+}
+
+/*
+ * Печать: вся карта, а не одна вкладка. Правило в слое theme: preflight Tailwind v4 прячет
+ * [hidden] с !important в слое base, а для !important побеждает более ранний слой.
+ */
+@layer theme {
+  @media print {
+    .menu-panel[hidden] {
+      display: block !important;
+    }
+    [role="tablist"] {
+      display: none !important;
+    }
+  }
+}
+
+/* Заголовок панели карты для печати и режима без JS (в интерфейсе его роль играет вкладка). */
+@media print {
+  .menu-panel::before {
+    content: attr(data-title);
+    display: block;
+    margin-bottom: 1rem;
+    font-family: var(--font-display);
+    font-size: 1.6rem;
+  }
+}
+
+/* Windows High Contrast: маска рисует знак фоном, а фон там подменяется — красим системным цветом. */
+@media (forced-colors: active) {
+  .logo-mask {
+    forced-color-adjust: none;
+    background-color: CanvasText !important;
+  }
+  a .logo-mask {
+    background-color: LinkText !important;
+  }
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-tairyo);
+  color: var(--color-on-red);
+}
+
+/* Тон секции задаёт схему: браузер красит скроллбары и формы в тон. */
+.tone-light {
+  color-scheme: light;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+.tone-deep {
+  color-scheme: light;
+  background-color: var(--color-paper-deep);
+  color: var(--color-ink);
+}
+.tone-dark {
+  color-scheme: dark;
+  background-color: var(--color-ink);
+  color: var(--color-on-dark);
+}
+.tone-red {
+  color-scheme: light;
+  background-color: var(--color-tairyo);
+  color: var(--color-on-red);
+}
+
+/* Фокус: тушь на светлом (16,6:1), бумага на туши и на красном. */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 3px;
+  }
+  .tone-dark :focus-visible,
+  .tone-red :focus-visible {
+    outline-color: var(--color-on-dark);
+  }
+}
+
+/*
+ * Классы-компоненты — в слое components: утилиты Tailwind v4 (text-*, mr-*, hidden)
+ * должны их перебивать, а неслоёные правила перебили бы утилиты.
+ */
+@layer components {
+  /* Цены, часы, рейтинг, номера блюд — табличные цифры (DESIGN.md §6). */
+  .tabular {
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+
+  /* Надзаголовки — мелкий капс с разрядкой. */
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  /* Знак-маска: файл логотипа — альфа, цвет — фон элемента (currentColor или токен). */
+  .logo-mask {
+    display: block;
+    background-color: currentColor;
+    -webkit-mask: var(--mask) center / contain no-repeat;
+    mask: var(--mask) center / contain no-repeat;
+  }
+
+  /* Пунктир между названием и ценой. */
+  .leader {
+    flex: 1 1 1.5rem;
+    min-width: 1rem;
+    border-bottom: 1px dotted var(--color-line);
+    transform: translateY(-0.35em);
+  }
+  .tone-dark .leader {
+    border-color: var(--color-ink-line);
+  }
+
+  /* Заголовки не оставляют висячих слов. */
+  .balance {
+    text-wrap: balance;
+  }
+
+  /* Лента вкладок: тонкий скроллбар только для мыши. */
+  .rail {
+    scrollbar-width: none;
+  }
+  @media (pointer: fine) {
+    .rail {
+      scrollbar-width: thin;
+    }
+  }
+
+  /*
+   * Лента кайтэн (DESIGN.md §4): бесконечный сдвиг на половину дорожки (дорожка — два
+   * одинаковых набора тарелок). Только transform. Пауза — кнопкой (data-paused) и при
+   * reduced motion.
+   */
+  .cinta-track {
+    animation: cinta 60s linear infinite;
+  }
+  .cinta[data-paused="true"] .cinta-track {
+    animation-play-state: paused;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .cinta-track {
+      animation: none;
+    }
+  }
+}
+
+@keyframes cinta {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

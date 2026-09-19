@@ -1,0 +1,140 @@
+{
+ "issues": [
+  {
+   "key": 56,
+   "field": "nameEn",
+   "current": "Fried bread",
+   "proposed": "Fried buns (mantou)",
+   "why": "To a British diner \"fried bread\" means the fry-up item: a slice of bread fried in fat. At this Chinese-run kaiten, \"pan frito\" (2 pcs) is fried mantou, the golden Chinese steamed buns. The restaurant's own photos show \"fried golden bun (mantou)\" and \"round fried buns\" going round on the belt.",
+   "severity": "error"
+  },
+  {
+   "key": 32,
+   "field": "descEn",
+   "current": "Seaweed and rice roll filled with king prawn tempura and avocado. Wrapped in avocado. Topped with Japanese mayo, sriracha and shredded meat.",
+   "proposed": "Seaweed and rice roll filled with king prawn tempura and avocado. Wrapped in avocado. Topped with Japanese mayo, sriracha and meat floss.",
+   "why": "\"Hilo de carne\" is the usual Spanish rendering of Chinese rousong (肉松), i.e. meat floss: dry, fluffy and slightly sweet. \"Shredded meat\" makes a diner picture pulled meat. The restaurant also uses meat floss elsewhere: one photo shows steamed red rice \"topped with meat floss\".",
+   "severity": "improvement"
+  },
+  {
+   "key": 51,
+   "field": "nameEn",
+   "current": "Vegetable rolls",
+   "proposed": "Vegetable spring rolls",
+   "why": "In Spanish Asian menus \"rollitos\" are spring rolls (rollitos de primavera), and guest photos show fried spring rolls on the belt. On a sushi menu, a bare \"rolls\" reads as maki or uramaki.",
+   "severity": "improvement"
+  },
+  {
+   "key": 52,
+   "field": "nameEn",
+   "current": "Seafood rolls",
+   "proposed": "Seafood spring rolls",
+   "why": "Same as the vegetable version: these are fried spring rolls, not sushi rolls. On a sushi menu, \"rolls\" alone is ambiguous.",
+   "severity": "improvement"
+  },
+  {
+   "key": 53,
+   "field": "nameEn",
+   "current": "Vietnamese rolls",
+   "proposed": "Vietnamese spring rolls",
+   "why": "In the fried section, \"rollitos vietnam\" are Vietnamese fried spring rolls (chả giò/nem). \"Vietnamese rolls\" could also mean fresh summer rolls or banh mi.",
+   "severity": "improvement"
+  },
+  {
+   "key": 41,
+   "field": "nameEn",
+   "current": "Salmon carpaccio (shake)",
+   "proposed": "Salmon carpaccio",
+   "why": "To an English reader, \"(shake)\" in brackets reads as a milkshake. The Japanese word for salmon is already translated by \"Salmon\", so the bracket adds only confusion.",
+   "severity": "improvement"
+  },
+  {
+   "key": 31,
+   "field": "descEn",
+   "current": "Seaweed and rice roll filled with duck and cucumber. With duck sauce and sesame.",
+   "proposed": "Seaweed and rice roll filled with duck and cucumber. With hoisin-style duck sauce and sesame.",
+   "why": "\"Duck sauce\" is an American-Chinese term for a sweet plum/apricot dip and means little to a British diner. In Spain, \"salsa de pato\" is the dark, sweet, hoisin-type Peking duck sauce, which British diners know as hoisin. Photos of this roll show a dark sweet glaze.",
+   "severity": "improvement"
+  },
+  {
+   "key": 101,
+   "field": "descEn",
+   "current": "Filled with red bean.",
+   "proposed": "Filled with sweet red bean paste.",
+   "why": "Dorayaki are filled with anko, a sweet adzuki bean paste. \"Red bean paste\" is the standard English term, and \"filled with red bean\" sounds like whole beans.",
+   "severity": "improvement"
+  },
+  {
+   "key": 35,
+   "field": "descEn",
+   "current": "Giant seaweed and rice roll, wrapped in salmon, tuna, butterfish and surimi.",
+   "proposed": "Giant seaweed and rice roll filled with salmon, tuna, butterfish and surimi.",
+   "why": "A futomaki has the nori outside, and guest photos show the salmon, tuna and surimi inside the roll. The carta's loose \"envuelto de\" is taken literally in English, but elsewhere on this menu \"wrapped in X\" means X is on the outside. That misrepresents the plate.",
+   "severity": "improvement"
+  },
+  {
+   "key": 36,
+   "field": "nameEn",
+   "current": "Battered futomaki roll",
+   "proposed": "Deep-fried futomaki roll",
+   "why": "In British English \"battered\" means a wet batter, as with fish and chips. The restaurant's photos show a \"panko-fried futomaki\", i.e. breadcrumbed. \"Deep-fried\" covers the Spanish \"rebozado\" accurately either way.",
+   "severity": "improvement"
+  },
+  {
+   "key": 36,
+   "field": "descEn",
+   "current": "Giant battered seaweed and rice roll, wrapped in salmon, tuna, butterfish and surimi.",
+   "proposed": "Giant deep-fried seaweed and rice roll filled with salmon, tuna, butterfish and surimi.",
+   "why": "Same reasons as the name and as the original futomaki. The roll is panko-fried rather than battered, and the fish is a filling, not an outer wrap.",
+   "severity": "improvement"
+  },
+  {
+   "key": 47,
+   "field": "nameEn",
+   "current": "Thai-style rice",
+   "proposed": "Thai fried rice",
+   "why": "This sits under rice and noodles, with pineapple, peas, prawns and carrot, and photos show \"yellow fried rice with prawns\". It is Thai (pineapple) fried rice. \"Thai-style rice\" could be read as plain jasmine rice.",
+   "severity": "improvement"
+  },
+  {
+   "key": 8,
+   "field": "nameEn",
+   "current": "Tenderloin",
+   "proposed": "Beef fillet",
+   "why": "\"Tenderloin\" is American usage; the British menu term is \"fillet\". A bare \"Fillet\" on a nigiri list would read as fish, so the animal is needed. \"Nigiri de solomillo\" on Spanish sushi menus is beef, and guest photos show a \"seared beef nigiri\".",
+   "severity": "improvement"
+  },
+  {
+   "key": 29,
+   "field": "descEn",
+   "current": "Rice paper, lettuce and rice roll filled with Korean radish and wakame.",
+   "proposed": "Rice paper, lettuce and rice roll filled with Korean pickled radish and wakame.",
+   "why": "In Spanish sushi bars, \"nabo coreano\" means danmuji, the yellow pickled radish used in kimbap. A guest photo of this lettuce-wrapped roll shows a yellow filling. \"Korean radish\" alone suggests raw white mu.",
+   "severity": "improvement"
+  },
+  {
+   "key": 116,
+   "field": "nameEn",
+   "current": "Mahou 0,0 Tostada beer",
+   "proposed": "Mahou 0,0 Tostada alcohol-free beer",
+   "why": "The carta lists this under alcoholic drinks. A British diner will not read \"0,0\" with a decimal comma as 0.0% ABV, so the English should say it is alcohol-free.",
+   "severity": "improvement"
+  },
+  {
+   "key": 103,
+   "field": "nameEn",
+   "current": "Vichy water",
+   "proposed": "Vichy Catalan sparkling water",
+   "why": "In Spain \"agua Vichy\" means Vichy Catalan, a salty sparkling mineral water. \"Vichy water\" does not tell a British diner that it is sparkling, and many would not recognise it at all.",
+   "severity": "improvement"
+  },
+  {
+   "key": -1,
+   "field": "section",
+   "current": "Coffee and herbal teas",
+   "proposed": "Coffee and tea",
+   "why": "In Spanish, \"infusiones\" covers all teas. This section includes jasmine tea and genmaicha, which are true teas, not herbal. \"Herbal teas\" misdescribes most of the section.",
+   "severity": "improvement"
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "prices": [
+  {
+   "label": "MEDIODÍA",
+   "sublabel": "",
+   "price": 20.95,
+   "priceText": "20,95€"
+  },
+  {
+   "label": "NOCHE",
+   "sublabel": "*Viernes noche no incluído",
+   "price": 23.95,
+   "priceText": "23,95€"
+  },
+  {
+   "label": "VIERNES NOCHE / FINES DE SEMANA / FESTIVO",
+   "sublabel": "",
+   "price": 26.95,
+   "priceText": "26,95€"
+  },
+  {
+   "label": "Niños menores de 1,2m menú infantil",
+   "sublabel": "",
+   "price": 9.95,
+   "priceText": "9,95€"
+  },
+  {
+   "label": "Menores de 3 años",
+   "sublabel": "",
+   "price": 0,
+   "priceText": "Gratis / Free"
+  }
+ ],
+ "rules": [
+  "*Viernes noche no incluído",
+  "* El menú no incluye la bebida. Mínimo una bebida por persona.",
+  "Se penaliza 2€ por cada plato no consumido.",
+  "No se puede compartir ni sacar del establecimiento."
+ ],
+ "hours": [
+  "HORARIO",
+  "Lunes a Domingo",
+  "13:00 - 16:30",
+  "20:00 - 00:00"
+ ],
+ "address": "Carrer d'isabel la catolica 22, 46004 Valencia",
+ "email": "info@tairyokaitensushi.com",
+ "slogan": "La infinidad de Japón / a un precio cerrado",
+ "fishNote": "*EL PESCADO HA SIDO PREVIAMENTE CONGELADO.",
+ "legend": [
+  {
+   "label": "CONTIENE GLUTEN",
+   "colour": "terracotta / burnt orange, sampled #d57849",
+   "glyph": "two crossed wheat ears on stalks"
+  },
+  {
+   "label": "CRUSTÁCEOS",
+   "colour": "bright sky / cyan blue, sampled #00a0dc",
+   "glyph": "crab seen from above with both claws raised"
+  },
+  {
+   "label": "HUEVOS",
+   "colour": "orange, sampled #ee943f",
+   "glyph": "three eggs (one behind, two in front) with highlight marks"
+  },
+  {
+   "label": "PESCADO",
+   "colour": "dark indigo / navy blue, sampled #3c3e8f",
+   "glyph": "whole fish facing left, with eye and gill line"
+  },
+  {
+   "label": "CACAHUETES",
+   "colour": "light brown / tan, sampled #ae7b56",
+   "glyph": "cross-hatched peanut in its shell plus two loose peanut kernels"
+  },
+  {
+   "label": "SOJA",
+   "colour": "medium green, sampled #0fa559",
+   "glyph": "three-leaf soybean sprig above an open pod showing five beans"
+  },
+  {
+   "label": "LÁCTEOS",
+   "colour": "dark chocolate brown, sampled #6a402d",
+   "glyph": "milk jug / pitcher with handle and spout"
+  },
+  {
+   "label": "FRUTOS DE CÁSCARA",
+   "colour": "brick / raspberry red, sampled #b75257",
+   "glyph": "whole walnut with its centre seam"
+  },
+  {
+   "label": "APIO",
+   "colour": "light lime green, sampled #6fbf4a",
+   "glyph": "celery stalk bunch with leafy top"
+  },
+  {
+   "label": "MOSTAZA",
+   "colour": "ochre / mustard gold, sampled #b49546",
+   "glyph": "squeeze-bottle nozzle entering from upper right, dispensing a squiggle of mustard into a puddle"
+  },
+  {
+   "label": "GRANOS DE SÉSAMO",
+   "colour": "grey-khaki / taupe, sampled #9c967d",
+   "glyph": "five scattered teardrop sesame seeds"
+  },
+  {
+   "label": "DIÓXIDO DE AZUFRE Y SULFITOS",
+   "colour": "plum / aubergine purple, sampled #752553",
+   "glyph": "text 'E-X' above two fused hexagonal rings (molecule structure)"
+  },
+  {
+   "label": "ALTRAMUCES",
+   "colour": "soft mustard yellow, sampled #e9ce5f",
+   "glyph": "three round lupin beans"
+  },
+  {
+   "label": "MOLUSCOS",
+   "colour": "turquoise / aqua, sampled #4dc3d0",
+   "glyph": "scallop shell (ribbed fan)"
+  }
+ ],
+ "otherText": [
+  "Page title: 'PRECIO MENÚ:' in a black Japanese-style display font, with a red brush stroke underneath",
+  "Group heading above MEDIODÍA and NOCHE (applies to both): 'Lunes a Viernes, no festivos'. A thin red vertical rule separates the MEDIODÍA and NOCHE columns",
+  "The NOCHE sub-label '*Viernes noche no incluído' is tiny italic text directly under 'NOCHE' (the accent is on the í of 'incluído')",
+  "In 'VIERNES NOCHE / FINES DE SEMANA / FESTIVO' the slashes are red and the words are black. In 'Gratis / Free' the words are red and the slash is black",
+  "Prices and hours are set in red bold italic. Labels are black",
+  "Address line has a black map-pin icon, email line has a black envelope icon. The address is printed in lowercase and without accents: 'd'isabel la catolica'",
+  "Slogan is in red script on two lines: 'La infinidad de Japón' then 'a un precio cerrado', with a red brush line to the left of the second line",
+  "Allergen legend layout: 2 rows of 7. Row 1: CONTIENE GLUTEN, CRUSTÁCEOS, HUEVOS, PESCADO, CACAHUETES, SOJA, LÁCTEOS. Row 2: FRUTOS DE CÁSCARA, APIO, MOSTAZA, GRANOS DE SÉSAMO, DIÓXIDO DE AZUFRE Y SULFITOS, ALTRAMUCES, MOLUSCOS. Every glyph is white on a filled circle. Labels print on two lines as 'CONTIENE / GLUTEN', 'FRUTOS / DE CÁSCARA', 'GRANOS / DE SÉSAMO' and 'DIÓXIDO DE AZUFRE / Y SULFITOS'",
+  "Icon pairs that are easy to confuse: CRUSTÁCEOS (bright blue #00a0dc, crab) vs MOLUSCOS (turquoise #4dc3d0, scallop shell). SOJA (medium green #0fa559, leaves and pod) vs APIO (light lime #6fbf4a, celery). LÁCTEOS (dark brown #6a402d, jug) vs CACAHUETES (tan #ae7b56, peanuts). MOSTAZA (ochre #b49546, bottle and squiggle) vs ALTRAMUCES (yellow #e9ce5f, three round beans). CONTIENE GLUTEN (terracotta #d57849, wheat) vs HUEVOS (orange #ee943f, eggs). PESCADO is the only dark navy one. DIÓXIDO DE AZUFRE Y SULFITOS is the only purple one, with 'E-X' text",
+  "The fish note sits to the right of the legend in black caps",
+  "Background is a pale red seigaiha wave pattern on white, with a solid red band along the bottom edge of the page"
+ ]
+}

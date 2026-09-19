@@ -1,0 +1,86 @@
+{
+  "banderas": {
+    "width": 2400,
+    "height": 3200
+  },
+  "bao-conejo": {
+    "width": 2400,
+    "height": 3200
+  },
+  "bao-pato": {
+    "width": 2400,
+    "height": 3200
+  },
+  "barra": {
+    "width": 2400,
+    "height": 3200
+  },
+  "cinta": {
+    "width": 2400,
+    "height": 3200
+  },
+  "entrada": {
+    "width": 2400,
+    "height": 3200
+  },
+  "fachada": {
+    "width": 2400,
+    "height": 1800
+  },
+  "hero": {
+    "width": 1080,
+    "height": 1440
+  },
+  "inari": {
+    "width": 2400,
+    "height": 3200
+  },
+  "kokeshi": {
+    "width": 2400,
+    "height": 3200
+  },
+  "mascaras": {
+    "width": 2400,
+    "height": 1800
+  },
+  "matcha": {
+    "width": 2400,
+    "height": 3200
+  },
+  "mesa": {
+    "width": 2400,
+    "height": 2880
+  },
+  "neon": {
+    "width": 2400,
+    "height": 1800
+  },
+  "nigiris": {
+    "width": 2400,
+    "height": 2656
+  },
+  "onigiri": {
+    "width": 2400,
+    "height": 3200
+  },
+  "shinkansen": {
+    "width": 2400,
+    "height": 4267
+  },
+  "tren-bao": {
+    "width": 2400,
+    "height": 1009
+  },
+  "tren-neon": {
+    "width": 1080,
+    "height": 1536
+  },
+  "tren-refrescos": {
+    "width": 2016,
+    "height": 3200
+  },
+  "tren-vapor": {
+    "width": 1080,
+    "height": 1920
+  }
+}

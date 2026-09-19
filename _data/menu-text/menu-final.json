@@ -1,0 +1,2220 @@
+{
+ "source": "CARTA-Valencia-vieiras.pdf (creado 09.01.2026, tairyokaitensushi.com)",
+ "readAt": "2026-09-18/19",
+ "prices": {
+  "prices": [
+   {
+    "label": "MEDIODÍA",
+    "sublabel": "",
+    "price": 20.95,
+    "priceText": "20,95€"
+   },
+   {
+    "label": "NOCHE",
+    "sublabel": "*Viernes noche no incluído",
+    "price": 23.95,
+    "priceText": "23,95€"
+   },
+   {
+    "label": "VIERNES NOCHE / FINES DE SEMANA / FESTIVO",
+    "sublabel": "",
+    "price": 26.95,
+    "priceText": "26,95€"
+   },
+   {
+    "label": "Niños menores de 1,2m menú infantil",
+    "sublabel": "",
+    "price": 9.95,
+    "priceText": "9,95€"
+   },
+   {
+    "label": "Menores de 3 años",
+    "sublabel": "",
+    "price": 0,
+    "priceText": "Gratis / Free"
+   }
+  ],
+  "rules": [
+   "*Viernes noche no incluído",
+   "* El menú no incluye la bebida. Mínimo una bebida por persona.",
+   "Se penaliza 2€ por cada plato no consumido.",
+   "No se puede compartir ni sacar del establecimiento."
+  ],
+  "hours": [
+   "HORARIO",
+   "Lunes a Domingo",
+   "13:00 - 16:30",
+   "20:00 - 00:00"
+  ],
+  "address": "Carrer d'isabel la catolica 22, 46004 Valencia",
+  "email": "info@tairyokaitensushi.com",
+  "slogan": "La infinidad de Japón / a un precio cerrado",
+  "fishNote": "*EL PESCADO HA SIDO PREVIAMENTE CONGELADO.",
+  "legend": [
+   {
+    "label": "CONTIENE GLUTEN",
+    "colour": "terracotta / burnt orange, sampled #d57849",
+    "glyph": "two crossed wheat ears on stalks"
+   },
+   {
+    "label": "CRUSTÁCEOS",
+    "colour": "bright sky / cyan blue, sampled #00a0dc",
+    "glyph": "crab seen from above with both claws raised"
+   },
+   {
+    "label": "HUEVOS",
+    "colour": "orange, sampled #ee943f",
+    "glyph": "three eggs (one behind, two in front) with highlight marks"
+   },
+   {
+    "label": "PESCADO",
+    "colour": "dark indigo / navy blue, sampled #3c3e8f",
+    "glyph": "whole fish facing left, with eye and gill line"
+   },
+   {
+    "label": "CACAHUETES",
+    "colour": "light brown / tan, sampled #ae7b56",
+    "glyph": "cross-hatched peanut in its shell plus two loose peanut kernels"
+   },
+   {
+    "label": "SOJA",
+    "colour": "medium green, sampled #0fa559",
+    "glyph": "three-leaf soybean sprig above an open pod showing five beans"
+   },
+   {
+    "label": "LÁCTEOS",
+    "colour": "dark chocolate brown, sampled #6a402d",
+    "glyph": "milk jug / pitcher with handle and spout"
+   },
+   {
+    "label": "FRUTOS DE CÁSCARA",
+    "colour": "brick / raspberry red, sampled #b75257",
+    "glyph": "whole walnut with its centre seam"
+   },
+   {
+    "label": "APIO",
+    "colour": "light lime green, sampled #6fbf4a",
+    "glyph": "celery stalk bunch with leafy top"
+   },
+   {
+    "label": "MOSTAZA",
+    "colour": "ochre / mustard gold, sampled #b49546",
+    "glyph": "squeeze-bottle nozzle entering from upper right, dispensing a squiggle of mustard into a puddle"
+   },
+   {
+    "label": "GRANOS DE SÉSAMO",
+    "colour": "grey-khaki / taupe, sampled #9c967d",
+    "glyph": "five scattered teardrop sesame seeds"
+   },
+   {
+    "label": "DIÓXIDO DE AZUFRE Y SULFITOS",
+    "colour": "plum / aubergine purple, sampled #752553",
+    "glyph": "text 'E-X' above two fused hexagonal rings (molecule structure)"
+   },
+   {
+    "label": "ALTRAMUCES",
+    "colour": "soft mustard yellow, sampled #e9ce5f",
+    "glyph": "three round lupin beans"
+   },
+   {
+    "label": "MOLUSCOS",
+    "colour": "turquoise / aqua, sampled #4dc3d0",
+    "glyph": "scallop shell (ribbed fan)"
+   }
+  ],
+  "otherText": [
+   "Page title: 'PRECIO MENÚ:' in a black Japanese-style display font, with a red brush stroke underneath",
+   "Group heading above MEDIODÍA and NOCHE (applies to both): 'Lunes a Viernes, no festivos'. A thin red vertical rule separates the MEDIODÍA and NOCHE columns",
+   "The NOCHE sub-label '*Viernes noche no incluído' is tiny italic text directly under 'NOCHE' (the accent is on the í of 'incluído')",
+   "In 'VIERNES NOCHE / FINES DE SEMANA / FESTIVO' the slashes are red and the words are black. In 'Gratis / Free' the words are red and the slash is black",
+   "Prices and hours are set in red bold italic. Labels are black",
+   "Address line has a black map-pin icon, email line has a black envelope icon. The address is printed in lowercase and without accents: 'd'isabel la catolica'",
+   "Slogan is in red script on two lines: 'La infinidad de Japón' then 'a un precio cerrado', with a red brush line to the left of the second line",
+   "Allergen legend layout: 2 rows of 7. Row 1: CONTIENE GLUTEN, CRUSTÁCEOS, HUEVOS, PESCADO, CACAHUETES, SOJA, LÁCTEOS. Row 2: FRUTOS DE CÁSCARA, APIO, MOSTAZA, GRANOS DE SÉSAMO, DIÓXIDO DE AZUFRE Y SULFITOS, ALTRAMUCES, MOLUSCOS. Every glyph is white on a filled circle. Labels print on two lines as 'CONTIENE / GLUTEN', 'FRUTOS / DE CÁSCARA', 'GRANOS / DE SÉSAMO' and 'DIÓXIDO DE AZUFRE / Y SULFITOS'",
+   "Icon pairs that are easy to confuse: CRUSTÁCEOS (bright blue #00a0dc, crab) vs MOLUSCOS (turquoise #4dc3d0, scallop shell). SOJA (medium green #0fa559, leaves and pod) vs APIO (light lime #6fbf4a, celery). LÁCTEOS (dark brown #6a402d, jug) vs CACAHUETES (tan #ae7b56, peanuts). MOSTAZA (ochre #b49546, bottle and squiggle) vs ALTRAMUCES (yellow #e9ce5f, three round beans). CONTIENE GLUTEN (terracotta #d57849, wheat) vs HUEVOS (orange #ee943f, eggs). PESCADO is the only dark navy one. DIÓXIDO DE AZUFRE Y SULFITOS is the only purple one, with 'E-X' text",
+   "The fish note sits to the right of the legend in black caps",
+   "Background is a pale red seigaiha wave pattern on white, with a solid red band along the bottom edge of the page"
+  ]
+ },
+ "items": [
+  {
+   "page": 3,
+   "section": "Nigiris",
+   "num": "1",
+   "name": "Salmón",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 3,
+   "section": "Nigiris",
+   "num": "2",
+   "name": "Salmon flambeado",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"Salmon\" printed without accent here (item 1 has \"Salmón\"); kept as printed. A/B differed only in note wording."
+  },
+  {
+   "page": 3,
+   "section": "Nigiris",
+   "num": "3",
+   "name": "Atún",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 3,
+   "section": "Nigiris",
+   "num": "4",
+   "name": "Pez mantequilla",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 3,
+   "section": "Nigiris",
+   "num": "5",
+   "name": "Pez mantequilla flambeado",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 3,
+   "section": "Nigiris",
+   "num": "6",
+   "name": "Langostino",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 3,
+   "section": "Nigiris",
+   "num": "7",
+   "name": "Langostino con queso cheddar",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos",
+    "lacteos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Icons checked by crop: sky-blue crab, then dark-brown milk jug."
+  },
+  {
+   "page": 3,
+   "section": "Nigiris",
+   "num": "8",
+   "name": "Huevo codorniz con trufa",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "huevos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Icon is the orange three-eggs glyph (huevos, sampled ~#f09038), not the terracotta wheat of gluten (item 309 sampled ~#d07848); checked by crop."
+  },
+  {
+   "page": 3,
+   "section": "Nigiris",
+   "num": "9",
+   "name": "Solomillo",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "soja"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Icons checked by crop: plum E-X molecule (sulfitos, ~#702050), then green soy sprig and pod."
+  },
+  {
+   "page": 3,
+   "section": "Nigiris",
+   "num": "10",
+   "name": "Mango",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed."
+  },
+  {
+   "page": 3,
+   "section": "Hosomaki",
+   "num": "201",
+   "name": "Salmón",
+   "description": "Roll de alga, arroz y salmón.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8pzs\" (no space) printed in red at the end of the description line."
+  },
+  {
+   "page": 3,
+   "section": "Hosomaki",
+   "num": "202",
+   "name": "Atún",
+   "description": "Roll de alga, arroz y atún.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8pzs\" printed in red at the end of the description line."
+  },
+  {
+   "page": 3,
+   "section": "Hosomaki",
+   "num": "203",
+   "name": "Aguacate",
+   "description": "Roll de alga, arroz y aguacate.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed; \"8pzs\" in red at the end of the description."
+  },
+  {
+   "page": 3,
+   "section": "Hosomaki",
+   "num": "204",
+   "name": "Pepino",
+   "description": "Roll de alga, arroz y pepino.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed; \"8pzs\" in red at the end of the description."
+  },
+  {
+   "page": 3,
+   "section": "Hosomaki",
+   "num": "205",
+   "name": "Mango",
+   "description": "Roll de alga, arroz y mango.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed; \"8pzs\" in red at the end of the description."
+  },
+  {
+   "page": 3,
+   "section": "Temaki",
+   "num": "401",
+   "name": "Temaki de salmón",
+   "description": "Cono de alga y arroz, relleno de salmón, aguacate y tobiko",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "No piece count printed; description has no final period."
+  },
+  {
+   "page": 3,
+   "section": "Temaki",
+   "num": "402",
+   "name": "Temaki de atún",
+   "description": "Cono de alga y arroz, relleno de atún, aguacate, y kimchi. Con salsa sriracha. Picante +",
+   "pieces": "",
+   "spicy": 1,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"Picante +\" printed in red italics at the end of the description (comma before \"y kimchi\" as printed); no piece count."
+  },
+  {
+   "page": 3,
+   "section": "Temaki",
+   "num": "403",
+   "name": "Temaki de gamba",
+   "description": "Cono de alga y arroz, rellenos de langostino cocido, surimi y pepino.",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "No piece count printed."
+  },
+  {
+   "page": 3,
+   "section": "Temaki",
+   "num": "404",
+   "name": "Temaki vegano",
+   "description": "Cono de alga y arroz, relleno de pepino, aguacate y mango. Con sésamo",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed although the description says \"Con sésamo\"; no piece count; no final period."
+  },
+  {
+   "page": 3,
+   "section": "Gunkan",
+   "num": "101",
+   "name": "Gunkan de tartar de salmón",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 3,
+   "section": "Gunkan",
+   "num": "102",
+   "name": "Gunkan de tartar de atún",
+   "description": "Picante +, con salsa de sriracha",
+   "pieces": "2 pzs",
+   "spicy": 1,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"Picante +, con salsa de sriracha\" printed in red italics on the same line after \"2 pzs\"."
+  },
+  {
+   "page": 3,
+   "section": "Gunkan",
+   "num": "103",
+   "name": "Gunkan de wakame",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 3,
+   "section": "Gunkan",
+   "num": "104",
+   "name": "Gunkan de tobiko",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "soja",
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Icons checked by crop: green soy, then grey-khaki sesame; no pescado icon printed despite tobiko (fish roe)."
+  },
+  {
+   "page": 3,
+   "section": "Gunkan",
+   "num": "105",
+   "name": "Gunkan de fruta",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "301",
+   "name": "California",
+   "description": "Roll de alga y arroz, relleno de langostino cocido, aguacate, pepino y mango, envuelto de tobiko.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "sesamo",
+    "sulfitos",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Icons checked by crop: grey-khaki sesame, plum E-X sulfitos, sky-blue crab. \"8pzs\" in red at the end of the description."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "302",
+   "name": "Salmon philadelphia",
+   "description": "Roll de alga y arroz, relleno de aguacate y queso philadelphia, envuelto de salmón.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "lacteos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"Salmon\" printed without accent in the name; \"8pzs\" in red at the end of the description."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "303",
+   "name": "Gari",
+   "description": "Roll de alga y arroz, rellenos de salmón y mango, envuelto de salmón flambeado.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8pzs\" in red at the end of the description."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "304",
+   "name": "Mango y atún",
+   "description": "Roll de alga y arroz, relleno de atún y mango, con salsa de mango y sésamo por fuera.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Only the pescado icon printed although the description mentions sésamo (checked by crop); \"8pzs\" in red."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "305",
+   "name": "Maki queso cheddar",
+   "description": "Roll de alga y arroz, relleno de salmón, aguacate y pepino. Envuelto de cheddar flambeado con salsa teriyaki.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "lacteos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8pzs\" in red at the end of the description."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "306",
+   "name": "Yasai",
+   "description": "Roll de lamina de arroz, lechuga y arroz, rellenos de nabo coreano y wakame.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"lamina\" printed without accent (kept as printed); \"8pzs\" in red."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "307",
+   "name": "Tori catsu",
+   "description": "Roll de alga y arroz, rellenos de pollo y pepino. Decorado con cebolla frita.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed; \"catsu\" spelled as printed; \"8pzs\" in red."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "308",
+   "name": "Pato",
+   "description": "Roll de alga y arroz, rellenos de pato y pepino. Con salsa de pato y sésamo.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "soja",
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8pzs\" in red."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "309",
+   "name": "Dragon roll",
+   "description": "Roll de laga y arroz, rellenos de tempura de langostino y aguacate. Envuelto de aguacate. Decorado con salsa mayo japo y sriracha, e hilo de carne.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Typo \"laga\" (for \"alga\") kept as printed. First icon is the terracotta wheat ears (gluten, sampled ~#d07848), second the sky-blue crab; no \"Picante\" marker printed despite sriracha; \"8pzs\" in red."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "310",
+   "name": "Piña crash",
+   "description": "Roll de alga y arroz, relleno de pepino y piña, envuelto de salmón, decorado con queso.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "lacteos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8pzs\" in red."
+  },
+  {
+   "page": 3,
+   "section": "Uramakis",
+   "num": "311",
+   "name": "Tuna top",
+   "description": "Roll de alga y arroz, rellenos de pepino, queso philadelphia y tobiko, envuelto de atún.",
+   "pieces": "8pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "lacteos",
+    "soja",
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Icons checked by crop: navy fish, dark-brown milk jug, green soy, grey-khaki sesame. \"8pzs\" in red."
+  },
+  {
+   "page": 4,
+   "section": "Futomaki",
+   "num": "501",
+   "name": "Futomaki roll original",
+   "description": "Roll gigante de alga y arroz, envuelto de salmon, atun, pez mantequilla y surimi.",
+   "pieces": "8 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8 pzs\" printed in red italics at the end of the description. The number \"502.\" is printed level with the second description line of 501, just above the 502 name. Icons checked by crop (fish #383890, crab #00a0d8)."
+  },
+  {
+   "page": 4,
+   "section": "Futomaki",
+   "num": "502",
+   "name": "Futomaki roll rebozado",
+   "description": "Roll gigante rebozado de alga y arroz, envuelto de salmon, atun, pez mantequilla y surimi.",
+   "pieces": "8 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8 pzs\" printed in red italics at the end of the description."
+  },
+  {
+   "page": 4,
+   "section": "Entrantes",
+   "num": "601",
+   "name": "Wakame",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Entrantes",
+   "num": "602",
+   "name": "Edamame",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icon printed (row checked by crop)."
+  },
+  {
+   "page": 4,
+   "section": "Entrantes",
+   "num": "603",
+   "name": "Ensalada de alga fresca",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Entrantes",
+   "num": "604",
+   "name": "Ensalada de marisco",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Entrantes",
+   "num": "605",
+   "name": "Carpaccio shake",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Entrantes",
+   "num": "606",
+   "name": "Mejillones",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Entrantes",
+   "num": "607",
+   "name": "Púlpitos al estilo tailandes",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Only the pescado (fish) icon is printed, no moluscos icon, although the dish is baby octopus (checked by crop)."
+  },
+  {
+   "page": 4,
+   "section": "Sopa",
+   "num": "701",
+   "name": "Miso",
+   "description": "Base de miso, con doufu, alga, champiñon, setas shiitake",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icon printed (row checked by crop)."
+  },
+  {
+   "page": 4,
+   "section": "Sopa",
+   "num": "702",
+   "name": "Tom yum",
+   "description": "Almeja, hierba de limon, cebolla, jengibre, pimiento, limón",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Arroces y tallarines",
+   "num": "801",
+   "name": "Arroz frito con soja",
+   "description": "Zanahoria, maíz, guisantes, huevo, bacon",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "soja",
+    "huevos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Icons checked by crop: green soy sprig/pod (soja), then orange eggs (huevos, #f09038 vs gluten #f07040)."
+  },
+  {
+   "page": 4,
+   "section": "Arroces y tallarines",
+   "num": "802",
+   "name": "Arroz tailandes",
+   "description": "Piña, guisante, gamba, zanahoria",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "The crustaceos icon is printed at the end of the description line, not the name line."
+  },
+  {
+   "page": 4,
+   "section": "Arroces y tallarines",
+   "num": "803",
+   "name": "Tallarines Con verdura y huevo",
+   "description": "Con verdura y huevo",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "huevos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Name printed as \"Tallarines Con verdura y huevo\" (capital C) and the italic description repeats \"Con verdura y huevo\"; kept as printed. Icon is eggs (huevos), not wheat (checked by crop)."
+  },
+  {
+   "page": 4,
+   "section": "Arroces y tallarines",
+   "num": "804",
+   "name": "Wudong Con verdura y huevo",
+   "description": "Con verdura y huevo",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "huevos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Printed \"Wudong\" (sic) with capital C in \"Con\"; the italic description repeats \"Con verdura y huevo\". Icon is eggs (huevos), checked by crop."
+  },
+  {
+   "page": 4,
+   "section": "Arroces y tallarines",
+   "num": "805",
+   "name": "Fideos de trigo sarraceno",
+   "description": "Verdura y salsa de sésamo",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "901",
+   "name": "Rollitos vegetal",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "902",
+   "name": "Rollitos de marisco",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "903",
+   "name": "Rollitos vietnam",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "904",
+   "name": "Wantun de queso",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "lacteos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "905",
+   "name": "Empanadillas de pollo curry",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Icon order as printed: sulfitos (E-X) first, then gluten."
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "906",
+   "name": "Pan frito",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "907",
+   "name": "Alitas de pollo",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "908",
+   "name": "Tempura de langostino",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "909",
+   "name": "Tempura de langostino envuelto de fideo",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Name fills the line, so the two allergen icons sit on the \"2pzs\" line after the piece count."
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "910",
+   "name": "Takoyakis",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Only gluten and pescado icons printed, no moluscos icon (checked by crop)."
+  },
+  {
+   "page": 4,
+   "section": "Fritos",
+   "num": "911",
+   "name": "Costillas",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Brochetas",
+   "num": "1001",
+   "name": "De gamba",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Brochetas",
+   "num": "1002",
+   "name": "De pollo",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Brochetas",
+   "num": "1003",
+   "name": "De cerdo estilo mongol",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Brochetas",
+   "num": "1004",
+   "name": "De calamar",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Brochetas",
+   "num": "1005",
+   "name": "De sepia",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2001",
+   "name": "Gyozas",
+   "description": "",
+   "pieces": "6 pzs",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed (row checked by crop and pixel scan). A/B differed only in note wording."
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2002",
+   "name": "Gambas con salsa de ajo",
+   "description": "",
+   "pieces": "4 pzs",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2003",
+   "name": "Gambas con salsa de Sambal",
+   "description": "",
+   "pieces": "4 pzs",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2004",
+   "name": "Ternera seta y bambu",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"bambu\" printed without accent (kept as printed)."
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2005",
+   "name": "Ternera sichuan",
+   "description": "",
+   "pieces": "",
+   "spicy": 2,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"Picante ++\" printed in red italics under the name. A/B differed only in note wording."
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2006",
+   "name": "Ternera hongkong",
+   "description": "",
+   "pieces": "",
+   "spicy": 1,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"Picante +\" printed in red italics under the name. A/B differed only in note wording."
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2007",
+   "name": "Pollo estilo taiwan",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2008",
+   "name": "Pollo curry",
+   "description": "",
+   "pieces": "",
+   "spicy": 1,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"Picante +\" printed in red italics under the name. A/B differed only in note wording."
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2009",
+   "name": "Pollo hongkong",
+   "description": "",
+   "pieces": "",
+   "spicy": 1,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"Picante +\" printed in red italics under the name. A/B differed only in note wording."
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2010",
+   "name": "Pollo sichuan",
+   "description": "",
+   "pieces": "",
+   "spicy": 2,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"Picante ++\" printed in red italics under the name. A/B differed only in note wording."
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2011",
+   "name": "Almejas",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2012",
+   "name": "Rollito Pato Pekín",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2013",
+   "name": "Pollo al limón",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos calientes",
+   "num": "2014",
+   "name": "Gambas con fideo de patata",
+   "description": "",
+   "pieces": "4 pzs",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos al vapor",
+   "num": "3001",
+   "name": "Arroz integral rojo",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icons printed (row checked by crop and pixel scan). A/B differed only in note wording."
+  },
+  {
+   "page": 5,
+   "section": "Platos al vapor",
+   "num": "3002",
+   "name": "Xiaolongbao",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos al vapor",
+   "num": "3003",
+   "name": "Siumai",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos al vapor",
+   "num": "3004",
+   "name": "jakao",
+   "description": "",
+   "pieces": "2 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Name printed in lowercase \"jakao\" (har gow), kept as printed. A/B differed only in note wording."
+  },
+  {
+   "page": 5,
+   "section": "Platos al vapor",
+   "num": "3005",
+   "name": "Vieira",
+   "description": "",
+   "pieces": "1 pzs. Max.2 pzs/persona",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Red italic line under the name reads \"1 pzs. Max.2 pzs/persona\" (portion plus limit of 2 per person); kept whole in pieces."
+  },
+  {
+   "page": 5,
+   "section": "Platos al vapor",
+   "num": "3006",
+   "name": "Bao de pato",
+   "description": "",
+   "pieces": "1 pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 5,
+   "section": "Platos al vapor",
+   "num": "3007",
+   "name": "Bao de pollo",
+   "description": "",
+   "pieces": "1 pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "page": 6,
+   "section": "Fuera de buffet — Sashimi",
+   "num": "4001",
+   "name": "Salmón",
+   "description": "",
+   "pieces": "4ud.",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": 1,
+   "priceText": "+1€",
+   "notes": "Printed as \"4001.Salmón 4ud.\" (no space after the number). No dispute; icon verified by crop and pixel sample (#3c3e8f = pescado)."
+  },
+  {
+   "page": 6,
+   "section": "Fuera de buffet — Sashimi",
+   "num": "4002",
+   "name": "Atún",
+   "description": "",
+   "pieces": "4ud.",
+   "spicy": 0,
+   "allergens": [],
+   "price": 1,
+   "priceText": "+1€",
+   "notes": "Printed as \"4002. Atún 4ud.\". No allergen icon is printed, not even pescado (wide crop to the page edge confirms; same in carta2026/5.jpg). No dispute."
+  },
+  {
+   "page": 6,
+   "section": "Fuera de buffet — Sashimi",
+   "num": "4003",
+   "name": "Pez mantequilla",
+   "description": "",
+   "pieces": "4ud.",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": 1,
+   "priceText": "+1€",
+   "notes": "Printed as \"4003.Pez mantequilla 4ud.\" (no space after the number), centred on its own row below 4001/4002. No dispute; icon verified (#3c3e8f = pescado)."
+  },
+  {
+   "page": 6,
+   "section": "Fuera de buffet — Sushi / Nigiri",
+   "num": "5001",
+   "name": "Anguila",
+   "description": "",
+   "pieces": "2ud.",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": 1,
+   "priceText": "+1€",
+   "notes": "Printed as \"5001. Anguila 2ud.\". No dispute; icon verified (#3c3e8f = pescado)."
+  },
+  {
+   "page": 6,
+   "section": "Fuera de buffet — Sushi / Nigiri",
+   "num": "5002",
+   "name": "Aguacate",
+   "description": "",
+   "pieces": "2ud.",
+   "spicy": 0,
+   "allergens": [],
+   "price": 1,
+   "priceText": "+1€",
+   "notes": "Printed as \"5002. Aguacate 2ud.\". No allergen icon is printed (wide crop to the page edge confirms). No dispute."
+  },
+  {
+   "page": 6,
+   "section": "Fuera de buffet — Uramaki",
+   "num": "6001",
+   "name": "Anguila",
+   "description": "(anguila, aguacate, envuelto de anguila y sésamo)",
+   "pieces": "8ud.",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "sesamo"
+   ],
+   "price": 12.95,
+   "priceText": "12,95€",
+   "notes": "Printed as \"6001. Anguila 8ud.\"; the price is printed centred below the description. No dispute; icons verified: navy fish (#3c3e8f = pescado), grey-khaki seeds (#9c947c ≈ legend #9c967d = sesamo)."
+  },
+  {
+   "page": 6,
+   "section": "Fuera de buffet — Uramaki",
+   "num": "6002",
+   "name": "Anguila e inari",
+   "description": "(anguila, aguacate, envuelto de inari)",
+   "pieces": "8ud.",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": 12.95,
+   "priceText": "12,95€",
+   "notes": "Printed as \"6002. Anguila e inari 8ud.\"; the price is printed centred below the description. Only the fish icon (#3e3d92 = pescado), no sesame. No dispute."
+  },
+  {
+   "page": 7,
+   "section": "Fuera de buffet — Tartar",
+   "num": "7001",
+   "name": "Salmón",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "soja",
+    "sesamo"
+   ],
+   "price": 5.5,
+   "priceText": "5,5€",
+   "notes": ""
+  },
+  {
+   "page": 7,
+   "section": "Fuera de buffet — Tartar",
+   "num": "7002",
+   "name": "Atún",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "soja",
+    "sesamo"
+   ],
+   "price": 5.5,
+   "priceText": "5,5€",
+   "notes": ""
+  },
+  {
+   "page": 7,
+   "section": "Fuera de buffet — Postre",
+   "num": "8001",
+   "name": "Mochis Cream",
+   "description": "Sabores a consultar",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "lacteos",
+    "gluten",
+    "huevos",
+    "sesamo"
+   ],
+   "price": 4.5,
+   "priceText": "4,5€",
+   "notes": ""
+  },
+  {
+   "page": 7,
+   "section": "Fuera de buffet — Postre",
+   "num": "8002",
+   "name": "Tarta de Queso",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "lacteos",
+    "huevos"
+   ],
+   "price": 4.95,
+   "priceText": "4,95€",
+   "notes": ""
+  },
+  {
+   "page": 7,
+   "section": "Fuera de buffet — Postre",
+   "num": "8003",
+   "name": "Tarta de queso vasca de Matcha",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "lacteos",
+    "huevos"
+   ],
+   "price": 4.95,
+   "priceText": "4,95€",
+   "notes": "Name printed on two lines: \"Tarta de queso\" / \"vasca de Matcha\". Number 8003 is printed again for Dorayaki on this page (duplicate number in the source, same in carta2026/6.jpg)."
+  },
+  {
+   "page": 7,
+   "section": "Fuera de buffet — Postre",
+   "num": "8004",
+   "name": "Helados",
+   "description": "Sabores: té matcha , judía roja y sésamo.",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "lacteos",
+    "huevos"
+   ],
+   "price": 2.5,
+   "priceText": "2,50€",
+   "notes": "Description printed with a space before the comma (\"té matcha , judía roja\"). No sesame icon is printed even though sésamo is listed as a flavour."
+  },
+  {
+   "page": 7,
+   "section": "Fuera de buffet — Postre",
+   "num": "8003",
+   "name": "Dorayaki",
+   "description": "relleno de judía roja",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "lacteos",
+    "huevos"
+   ],
+   "price": 3.5,
+   "priceText": "3,50€",
+   "notes": "Printed as 8003, repeating the number of 'Tarta de queso vasca de Matcha' (probably meant to be 8005); kept as printed, identical in carta2026/6.jpg. Centred alone at the bottom of the page."
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9001",
+   "name": "Agua 50cl",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 2.5,
+   "priceText": "2,5€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9002",
+   "name": "Agua vichi",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.3,
+   "priceText": "3,3€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9003",
+   "name": "Coca Cola original",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.2,
+   "priceText": "3,2€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9004",
+   "name": "Coca Cola zero",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.2,
+   "priceText": "3,2€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9005",
+   "name": "Fanta naranja",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.2,
+   "priceText": "3,2€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9006",
+   "name": "Fanta limon",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.2,
+   "priceText": "3,2€",
+   "notes": "'limon' printed without accent (sic)"
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9007",
+   "name": "Aquarius naranja",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,5€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9008",
+   "name": "Aquarius limon",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,5€",
+   "notes": "Top of the right column of the section; 'limon' printed without accent (sic)"
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9009",
+   "name": "Nestea",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,5€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9010",
+   "name": "Sprite",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,5€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9011",
+   "name": "Tónica",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,5€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9012",
+   "name": "Ramune",
+   "description": "Sabores a consultar",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.6,
+   "priceText": "3,6€",
+   "notes": "Sub-line printed in small upright (not italic) type under the name; kept as description (verified in crop)"
+  },
+  {
+   "page": 8,
+   "section": "Bebidas sin alcohol",
+   "num": "9013",
+   "name": "Mogu mogu",
+   "description": "Sabores a consultar",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,5€",
+   "notes": "Sub-line printed in small upright (not italic) type under the name; kept as description"
+  },
+  {
+   "page": 8,
+   "section": "Bebidas con alcohol",
+   "num": "9014",
+   "name": "Cerveza mahou 5 estrellas",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3,
+   "priceText": "3,0€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas con alcohol",
+   "num": "9015",
+   "name": "Cerveza mahou 0,0 tostada",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3,
+   "priceText": "3,0€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas con alcohol",
+   "num": "9016",
+   "name": "Estrella galicia",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.1,
+   "priceText": "3,1€",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Bebidas con alcohol",
+   "num": "9017",
+   "name": "Cerveza japonesa sapooro",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.3,
+   "priceText": "3,3€",
+   "notes": "Printed 'sapooro' (sic, Sapporo), confirmed in crop"
+  },
+  {
+   "page": 8,
+   "section": "Bebidas con alcohol",
+   "num": "9018",
+   "name": "Sake 150 ml",
+   "description": "Para 1-2 personas",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 5.5,
+   "priceText": "5,5€",
+   "notes": "Top of the right column of the section; sub-line printed in small upright (not italic) type"
+  },
+  {
+   "page": 8,
+   "section": "Bebidas con alcohol",
+   "num": "9019",
+   "name": "Sake 300 ml",
+   "description": "Para 2-4 personas",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 7.5,
+   "priceText": "7,5€",
+   "notes": "Sub-line printed in small upright (not italic) type"
+  },
+  {
+   "page": 8,
+   "section": "Bebidas con alcohol",
+   "num": "9020",
+   "name": "Sake koji 300ml",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 12.95,
+   "priceText": "12,95€",
+   "notes": "Small photo of a clear sake bottle (blue cap, blue kanji label) beside the item; '300ml' printed without space, unlike 'Sake 300 ml'"
+  },
+  {
+   "page": 8,
+   "section": "Bebidas con alcohol",
+   "num": "9021",
+   "name": "Soju",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 12.95,
+   "priceText": "12,95€",
+   "notes": "Small photo of a green soju bottle (Korean label) beside the name"
+  },
+  {
+   "page": 8,
+   "section": "Vino tinto",
+   "num": "9022",
+   "name": "Pata Negra Roble Toro",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,50€ / copa 10,90€ / botella",
+   "notes": "Two prices: 3,50€ per glass (copa), 10,90€ per bottle (botella); price field holds the per-glass price"
+  },
+  {
+   "page": 8,
+   "section": "Vino tinto",
+   "num": "9023",
+   "name": "Protos Roble Ribera del Duero",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 18.8,
+   "priceText": "18,80€ / botella",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Vino tinto",
+   "num": "9024",
+   "name": "Marqués de Cáceres -crianza",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 18.5,
+   "priceText": "18.50€ / botella",
+   "notes": "Price printed with a dot decimal separator (18.50€), unlike the others; confirmed in tight crop"
+  },
+  {
+   "page": 8,
+   "section": "Vino tinto",
+   "num": "9025",
+   "name": "Lambrusco Valmarone",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": ""
+  },
+  {
+   "page": 8,
+   "section": "Vino tinto",
+   "num": "9026",
+   "name": "El Coto Rioja - Crianza",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 13.5,
+   "priceText": "13,50€ / botella",
+   "notes": ""
+  },
+  {
+   "page": 9,
+   "section": "Vino blanco",
+   "num": "9027",
+   "name": "Viore Verdejo",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,50€ / copa 10,90€ / botella",
+   "notes": "Two prices printed: 3,50€ / copa and 10,90€ / botella; price field holds the glass (copa) price. A and B agree; verified by crop."
+  },
+  {
+   "page": 9,
+   "section": "Vino blanco",
+   "num": "9028",
+   "name": "MarquÉs de Vizhoja",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 13.8,
+   "priceText": "13,80€ / botella",
+   "notes": "Printed with capital É mid-word (MarquÉs), kept as printed."
+  },
+  {
+   "page": 9,
+   "section": "Vino blanco",
+   "num": "9029",
+   "name": "Oroya, Especial Sushi",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 12.95,
+   "priceText": "12.95€ / botella",
+   "notes": "Price printed with a decimal point (12.95€), not a comma; kept as printed."
+  },
+  {
+   "page": 9,
+   "section": "Vino blanco",
+   "num": "9030",
+   "name": "MarquÉs de Cáceres blanco",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 12.5,
+   "priceText": "12,50€ / botella",
+   "notes": "Printed with capital É mid-word (MarquÉs), kept as printed."
+  },
+  {
+   "page": 9,
+   "section": "Vino blanco",
+   "num": "9031",
+   "name": "Barbadillo",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": ""
+  },
+  {
+   "page": 9,
+   "section": "Vino rosado",
+   "num": "9032",
+   "name": "Pata Negra D.O Ribera del Duero",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,50€ / copa 10,90€ / botella",
+   "notes": "Two prices printed: 3,50€ / copa and 10,90€ / botella; price field holds the glass (copa) price. D.O printed without a final dot."
+  },
+  {
+   "page": 9,
+   "section": "Vino rosado",
+   "num": "9033",
+   "name": "Lambrusco valmarone",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": "Lowercase valmarone as printed. Notes differed only (A mentioned the lowercase, B empty); crop confirms lowercase v."
+  },
+  {
+   "page": 9,
+   "section": "Cava",
+   "num": "9034",
+   "name": "Visiega Vaca Brut",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": ""
+  },
+  {
+   "page": 9,
+   "section": "Cava",
+   "num": "9035",
+   "name": "Visiega Vaca Semi",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": ""
+  },
+  {
+   "page": 9,
+   "section": "Cava",
+   "num": "9036",
+   "name": "Visiega Cava Brut Rosado",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": ""
+  },
+  {
+   "page": 9,
+   "section": "Cafe e infusiones",
+   "num": "9037",
+   "name": "Café",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 1.9,
+   "priceText": "1,90€",
+   "notes": ""
+  },
+  {
+   "page": 9,
+   "section": "Cafe e infusiones",
+   "num": "9038",
+   "name": "Té o infusión",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 1.6,
+   "priceText": "1,60€",
+   "notes": ""
+  },
+  {
+   "page": 9,
+   "section": "Cafe e infusiones",
+   "num": "9039",
+   "name": "Té Jazmín",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 2.8,
+   "priceText": "2,80€",
+   "notes": ""
+  },
+  {
+   "page": 9,
+   "section": "Cafe e infusiones",
+   "num": "9040",
+   "name": "Té Japonés",
+   "description": "Té verde con arroz tostado",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3,
+   "priceText": "3,00€",
+   "notes": "Description is in small regular (non-italic) type under the name."
+  },
+  {
+   "page": 9,
+   "section": "Cafe e infusiones",
+   "num": "9041",
+   "name": "Café con Baileys",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.1,
+   "priceText": "3,10€",
+   "notes": ""
+  }
+ ]
+}

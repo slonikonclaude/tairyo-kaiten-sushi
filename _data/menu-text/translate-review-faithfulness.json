@@ -1,0 +1,68 @@
+{
+ "issues": [
+  {
+   "key": 16,
+   "field": "descEn",
+   "current": "Seaweed and rice cone filled with tuna, avocado and kimchi. With sriracha sauce.",
+   "proposed": "Seaweed and rice cone filled with tuna, avocado and kimchi. With sriracha sauce. Spicy +",
+   "why": "The Spanish ends with the spice marker \"Picante +\" (printed in red on the carta); the English silently drops it, so English readers lose the only heat warning on this item. Dropping it from the text is acceptable only if the EN page renders a translated \"Spicy +\" flame badge from spicy: 1 in menu-final.json (DESIGN.md §7.5 plans \"Picante +/++\"). The ES description still contains \"Picante +\" in its text, so for parity the English should keep it too.",
+   "severity": "error"
+  },
+  {
+   "key": 20,
+   "field": "descEn",
+   "current": "With sriracha sauce.",
+   "proposed": "Spicy +, with sriracha sauce.",
+   "why": "The Spanish is \"Picante +, con salsa de sriracha\"; the spice marker is dropped in English, as on item 16. Keep it, or make sure the EN page shows the \"Spicy +\" badge from spicy: 1. The ES text keeps the marker, so the English should too.",
+   "severity": "error"
+  },
+  {
+   "key": -1,
+   "field": "section",
+   "current": "Uramaki",
+   "proposed": "Outside the buffet — Uramaki",
+   "why": "\"Fuera de buffet — Uramaki\" (not in the buffet, 12,95 € a roll) and the in-buffet \"Uramakis\" now translate to the identical heading \"Uramaki\". The \"not included in the buffet\" context is lost, and the two sections cannot be told apart in English, or mapped back from English to Spanish. This is fine only if the English section is always shown inside a translated \"Fuera de buffet\" tab and grouping is keyed on the Spanish section.",
+   "severity": "error"
+  },
+  {
+   "key": -1,
+   "field": "section",
+   "current": "Sushi / Nigiri",
+   "proposed": "Outside the buffet — Sushi / Nigiri",
+   "why": "The Spanish section is \"Fuera de buffet — Sushi / Nigiri\" (a +1 € supplement). Dropping \"Fuera de buffet\" loses the fact that these are not in the buffet price, and the heading sits close to the in-buffet \"Nigiri\" section. This does not matter if the page always shows a translated \"Fuera de buffet\" tab around it.",
+   "severity": "improvement"
+  },
+  {
+   "key": -1,
+   "field": "section",
+   "current": "Sashimi",
+   "proposed": "Outside the buffet — Sashimi",
+   "why": "The Spanish is \"Fuera de buffet — Sashimi\". The \"not in the buffet\" context, which explains the +1 € supplement, is dropped from the English heading. This does not matter if the page always shows a translated \"Fuera de buffet\" tab around it.",
+   "severity": "improvement"
+  },
+  {
+   "key": -1,
+   "field": "section",
+   "current": "Tartare",
+   "proposed": "Outside the buffet — Tartare",
+   "why": "The Spanish is \"Fuera de buffet — Tartar\" (5,5 € each). The English drops the context that these are paid extras outside the buffet. This does not matter if the page always shows a translated \"Fuera de buffet\" tab around it.",
+   "severity": "improvement"
+  },
+  {
+   "key": -1,
+   "field": "section",
+   "current": "Desserts",
+   "proposed": "Outside the buffet — Desserts",
+   "why": "The Spanish is \"Fuera de buffet — Postre\". The English drops the context that desserts are charged separately from the buffet. This does not matter if the page always shows a translated \"Fuera de buffet\" tab around it.",
+   "severity": "improvement"
+  },
+  {
+   "key": 32,
+   "field": "descEn",
+   "current": "Seaweed and rice roll filled with king prawn tempura and avocado. Wrapped in avocado. Topped with Japanese mayo, sriracha and shredded meat.",
+   "proposed": "Seaweed and rice roll filled with king prawn tempura and avocado. Wrapped in avocado. Topped with Japanese mayo, sriracha and meat floss.",
+   "why": "\"Hilo de carne\" means meat threads. That is the standard English \"meat floss\" (rousong), which is also the translator's own best guess in the note. \"Shredded meat\" suggests pulled or torn pieces of meat, a different topping from the fine threads the Spanish describes.",
+   "severity": "improvement"
+  }
+ ]
+}

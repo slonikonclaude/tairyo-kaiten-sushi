@@ -1,0 +1,96 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Permite lanzar el despliegue a mano desde la pestaña Actions.
+  workflow_dispatch:
+
+# Permisos mínimos que necesita la acción oficial de Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Si se empujan dos commits seguidos, publica el último. No se cancela a mitad
+# para no dejar el sitio a medias.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Configurar GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Compilar el sitio estático
+        env:
+          # `configure-pages` deduce de la configuración del repositorio dónde
+          # va a vivir el sitio, así que estas dos líneas cubren los tres casos
+          # sin volver a tocar este fichero:
+          #
+          #   repo de proyecto       → base_path '/tairyo-kaiten-sushi'
+          #   repo USUARIO.github.io → base_path '/'
+          #   dominio propio         → base_path '/', origin https://tu-dominio
+          #
+          # El caso del medio necesita la normalización de `next.config.ts`:
+          # Next se niega a arrancar con un basePath acabado en barra.
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          NEXT_PUBLIC_SITE_URL: ${{ steps.pages.outputs.origin }}
+        run: npm run build
+
+      - name: Desactivar Jekyll
+        # Sin este fichero Pages pasa la salida por Jekyll, que ignora los
+        # directorios con guion bajo: `_next/` se quedaría fuera y el sitio
+        # saldría sin estilos ni JavaScript.
+        run: touch out/.nojekyll
+
+      - name: Comprobar el export
+        # Tres fallos de `output: export` que dejan el build en verde y el sitio
+        # roto en el navegador. Se comprueban aquí, no en el navegador.
+        run: |
+          set -e
+          test -f out/index.html || { echo "Falta out/index.html"; exit 1; }
+          test -f out/en/index.html || { echo "Falta out/en/index.html"; exit 1; }
+          if grep -rl "_next/image" out --include="*.html" | head -1 | grep .; then
+            echo "El export usa /_next/image: falta images.unoptimized"; exit 1
+          fi
+          # Con basePath, un src="/photos/…" sin prefijo da 404 en Pages.
+          if [ -n "${{ steps.pages.outputs.base_path }}" ] && [ "${{ steps.pages.outputs.base_path }}" != "/" ]; then
+            if grep -rlE 'src="/photos/' out --include="*.html" | head -1 | grep .; then
+              echo "Hay rutas /photos/ sin basePath"; exit 1
+            fi
+          fi
+          echo "Export correcto."
+
+      # La acción empaqueta la carpeta en un tar antes de subirla, así que el
+      # `.nojekyll` viaja dentro y no le afecta la exclusión de ficheros ocultos
+      # de `upload-artifact@v4`. Se queda en v3 a propósito: en v4 los ficheros
+      # que empiezan por punto se pierden y el sitio se publica sin estilos.
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

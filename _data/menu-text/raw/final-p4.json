@@ -1,0 +1,409 @@
+{
+ "page": 4,
+ "sections": [
+  "Futomaki",
+  "Entrantes",
+  "Sopa",
+  "Arroces y tallarines",
+  "Fritos"
+ ],
+ "items": [
+  {
+   "section": "Futomaki",
+   "num": "501",
+   "name": "Futomaki roll original",
+   "description": "Roll gigante de alga y arroz, envuelto de salmon, atun, pez mantequilla y surimi.",
+   "pieces": "8 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8 pzs\" printed in red italics at the end of the description. The number \"502.\" is printed level with the second description line of 501, just above the 502 name. Icons checked by crop (fish #383890, crab #00a0d8)."
+  },
+  {
+   "section": "Futomaki",
+   "num": "502",
+   "name": "Futomaki roll rebozado",
+   "description": "Roll gigante rebozado de alga y arroz, envuelto de salmon, atun, pez mantequilla y surimi.",
+   "pieces": "8 pzs",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "\"8 pzs\" printed in red italics at the end of the description."
+  },
+  {
+   "section": "Entrantes",
+   "num": "601",
+   "name": "Wakame",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Entrantes",
+   "num": "602",
+   "name": "Edamame",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icon printed (row checked by crop)."
+  },
+  {
+   "section": "Entrantes",
+   "num": "603",
+   "name": "Ensalada de alga fresca",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Entrantes",
+   "num": "604",
+   "name": "Ensalada de marisco",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Entrantes",
+   "num": "605",
+   "name": "Carpaccio shake",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Entrantes",
+   "num": "606",
+   "name": "Mejillones",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Entrantes",
+   "num": "607",
+   "name": "Púlpitos al estilo tailandes",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Only the pescado (fish) icon is printed, no moluscos icon, although the dish is baby octopus (checked by crop)."
+  },
+  {
+   "section": "Sopa",
+   "num": "701",
+   "name": "Miso",
+   "description": "Base de miso, con doufu, alga, champiñon, setas shiitake",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": null,
+   "priceText": "",
+   "notes": "No allergen icon printed (row checked by crop)."
+  },
+  {
+   "section": "Sopa",
+   "num": "702",
+   "name": "Tom yum",
+   "description": "Almeja, hierba de limon, cebolla, jengibre, pimiento, limón",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "moluscos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Arroces y tallarines",
+   "num": "801",
+   "name": "Arroz frito con soja",
+   "description": "Zanahoria, maíz, guisantes, huevo, bacon",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "soja",
+    "huevos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Icons checked by crop: green soy sprig/pod (soja), then orange eggs (huevos, #f09038 vs gluten #f07040)."
+  },
+  {
+   "section": "Arroces y tallarines",
+   "num": "802",
+   "name": "Arroz tailandes",
+   "description": "Piña, guisante, gamba, zanahoria",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "The crustaceos icon is printed at the end of the description line, not the name line."
+  },
+  {
+   "section": "Arroces y tallarines",
+   "num": "803",
+   "name": "Tallarines Con verdura y huevo",
+   "description": "Con verdura y huevo",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "huevos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Name printed as \"Tallarines Con verdura y huevo\" (capital C) and the italic description repeats \"Con verdura y huevo\"; kept as printed. Icon is eggs (huevos), not wheat (checked by crop)."
+  },
+  {
+   "section": "Arroces y tallarines",
+   "num": "804",
+   "name": "Wudong Con verdura y huevo",
+   "description": "Con verdura y huevo",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "huevos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Printed \"Wudong\" (sic) with capital C in \"Con\"; the italic description repeats \"Con verdura y huevo\". Icon is eggs (huevos), checked by crop."
+  },
+  {
+   "section": "Arroces y tallarines",
+   "num": "805",
+   "name": "Fideos de trigo sarraceno",
+   "description": "Verdura y salsa de sésamo",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [
+    "sesamo"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "901",
+   "name": "Rollitos vegetal",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "902",
+   "name": "Rollitos de marisco",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "pescado",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "903",
+   "name": "Rollitos vietnam",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "904",
+   "name": "Wantun de queso",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "lacteos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "905",
+   "name": "Empanadillas de pollo curry",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos",
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Icon order as printed: sulfitos (E-X) first, then gluten."
+  },
+  {
+   "section": "Fritos",
+   "num": "906",
+   "name": "Pan frito",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "907",
+   "name": "Alitas de pollo",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "908",
+   "name": "Tempura de langostino",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  },
+  {
+   "section": "Fritos",
+   "num": "909",
+   "name": "Tempura de langostino envuelto de fideo",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "crustaceos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Name fills the line, so the two allergen icons sit on the \"2pzs\" line after the piece count."
+  },
+  {
+   "section": "Fritos",
+   "num": "910",
+   "name": "Takoyakis",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "gluten",
+    "pescado"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": "Only gluten and pescado icons printed, no moluscos icon (checked by crop)."
+  },
+  {
+   "section": "Fritos",
+   "num": "911",
+   "name": "Costillas",
+   "description": "",
+   "pieces": "2pzs",
+   "spicy": 0,
+   "allergens": [
+    "sulfitos"
+   ],
+   "price": null,
+   "priceText": "",
+   "notes": ""
+  }
+ ],
+ "otherText": [],
+ "disputes": [
+  "501 notes: A=\"8 pzs printed in red…; 502. level with second line\" B=\"same, wording differs\" → final merged wording (wording only; crop confirms both facts)",
+  "502 notes: A=\"\\\"8 pzs\\\" printed in red…\" B=\"'8 pzs' printed in red italic…\" → final \"\\\"8 pzs\\\" printed in red italics…\" (wording only)",
+  "607 notes: A=\"Only a fish icon is printed…\" B=\"Only the fish (pescado) icon…\" → final same fact (wording only; crop shows a single navy fish icon)",
+  "802 notes: A=\"crab icon on the description line\" B=\"crustaceos icon at the end of the description line\" → final same fact (wording only; crop confirms)",
+  "803 notes: A=\"\" B=\"Capital 'C' in 'Con'…; description repeats\" → final B's observation kept (crop confirms name line \"Tallarines Con verdura y huevo\" and italic line \"Con verdura y huevo\")",
+  "804 notes: A=\"\" B=\"Printed 'Wudong' (sic)…\" → final B's observation kept (crop confirms \"Wudong Con verdura y huevo\" plus repeated italic line)",
+  "909 notes: A=\"icons printed on the 2pzs line\" B=\"icons sit on the 2pzs line after the piece count\" → final same fact (wording only; crop confirms)",
+  "910 notes: A=\"\" B=\"Only gluten and pescado icons printed, no moluscos icon\" → final B's observation kept (crop shows orange wheat + navy fish only)",
+  "otherText: A=[] B=[6 layout/design descriptions: heading font, colours, column layout, no prices/banner, no Picante, background] → final [] (B's entries describe design, not printed text; the page prints no text beyond headings and items, no prices, no Fuera de buffet banner, no Picante markers, no page number)"
+ ]
+}

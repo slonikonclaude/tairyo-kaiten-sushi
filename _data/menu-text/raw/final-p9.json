@@ -1,0 +1,196 @@
+{
+ "page": 9,
+ "sections": [
+  "Vino blanco",
+  "Vino rosado",
+  "Cava",
+  "Cafe e infusiones"
+ ],
+ "items": [
+  {
+   "section": "Vino blanco",
+   "num": "9027",
+   "name": "Viore Verdejo",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,50€ / copa 10,90€ / botella",
+   "notes": "Two prices printed: 3,50€ / copa and 10,90€ / botella; price field holds the glass (copa) price. A and B agree; verified by crop."
+  },
+  {
+   "section": "Vino blanco",
+   "num": "9028",
+   "name": "MarquÉs de Vizhoja",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 13.8,
+   "priceText": "13,80€ / botella",
+   "notes": "Printed with capital É mid-word (MarquÉs), kept as printed."
+  },
+  {
+   "section": "Vino blanco",
+   "num": "9029",
+   "name": "Oroya, Especial Sushi",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 12.95,
+   "priceText": "12.95€ / botella",
+   "notes": "Price printed with a decimal point (12.95€), not a comma; kept as printed."
+  },
+  {
+   "section": "Vino blanco",
+   "num": "9030",
+   "name": "MarquÉs de Cáceres blanco",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 12.5,
+   "priceText": "12,50€ / botella",
+   "notes": "Printed with capital É mid-word (MarquÉs), kept as printed."
+  },
+  {
+   "section": "Vino blanco",
+   "num": "9031",
+   "name": "Barbadillo",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": ""
+  },
+  {
+   "section": "Vino rosado",
+   "num": "9032",
+   "name": "Pata Negra D.O Ribera del Duero",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.5,
+   "priceText": "3,50€ / copa 10,90€ / botella",
+   "notes": "Two prices printed: 3,50€ / copa and 10,90€ / botella; price field holds the glass (copa) price. D.O printed without a final dot."
+  },
+  {
+   "section": "Vino rosado",
+   "num": "9033",
+   "name": "Lambrusco valmarone",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": "Lowercase valmarone as printed. Notes differed only (A mentioned the lowercase, B empty); crop confirms lowercase v."
+  },
+  {
+   "section": "Cava",
+   "num": "9034",
+   "name": "Visiega Vaca Brut",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": ""
+  },
+  {
+   "section": "Cava",
+   "num": "9035",
+   "name": "Visiega Vaca Semi",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": ""
+  },
+  {
+   "section": "Cava",
+   "num": "9036",
+   "name": "Visiega Cava Brut Rosado",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 10.95,
+   "priceText": "10,95€ / botella",
+   "notes": ""
+  },
+  {
+   "section": "Cafe e infusiones",
+   "num": "9037",
+   "name": "Café",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 1.9,
+   "priceText": "1,90€",
+   "notes": ""
+  },
+  {
+   "section": "Cafe e infusiones",
+   "num": "9038",
+   "name": "Té o infusión",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 1.6,
+   "priceText": "1,60€",
+   "notes": ""
+  },
+  {
+   "section": "Cafe e infusiones",
+   "num": "9039",
+   "name": "Té Jazmín",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 2.8,
+   "priceText": "2,80€",
+   "notes": ""
+  },
+  {
+   "section": "Cafe e infusiones",
+   "num": "9040",
+   "name": "Té Japonés",
+   "description": "Té verde con arroz tostado",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3,
+   "priceText": "3,00€",
+   "notes": "Description is in small regular (non-italic) type under the name."
+  },
+  {
+   "section": "Cafe e infusiones",
+   "num": "9041",
+   "name": "Café con Baileys",
+   "description": "",
+   "pieces": "",
+   "spicy": 0,
+   "allergens": [],
+   "price": 3.1,
+   "priceText": "3,10€",
+   "notes": ""
+  }
+ ],
+ "otherText": [],
+ "disputes": [
+  "9033 notes: A=\"Lowercase valmarone as printed\" B=\"\" -> final keeps the lowercase note (crop shows lowercase v; name field identical in A and B)",
+  "otherText: A=[] B=[2 descriptive remarks: no allergen icons; heading font notch on O is not an accent] -> final [] (these are transcriber observations, not printed text; the page has no other printed text; headings confirmed as VINO BLANCO, VINO ROSADO, CAVA, CAFE E INFUSIONES by crop)"
+ ]
+}
