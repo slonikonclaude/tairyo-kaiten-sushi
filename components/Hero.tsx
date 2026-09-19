@@ -34,7 +34,7 @@ export function Hero({ locale }: { locale: Locale }) {
           <h1 className="balance mt-6 font-display text-[2.6rem] leading-[1.06] text-ink sm:text-[3.6rem] lg:text-[4.1rem] xl:text-[4.6rem]">{h.title}</h1>
 
           <p className="mt-6 flex flex-col gap-2 text-tairyo-deep">
-            <span className="font-display text-[1.25rem] leading-snug sm:text-[1.5rem]">{h.slogan}</span>
+            <span className="balance font-display text-[1.25rem] leading-snug sm:text-[1.5rem]">{h.slogan}</span>
             <Brush className="h-3 w-44 text-tairyo" />
           </p>
 
@@ -78,7 +78,7 @@ export function Hero({ locale }: { locale: Locale }) {
               <dt className="eyebrow text-muted">{h.factRating}</dt>
               <dd className="mt-1.5 flex flex-col gap-1">
                 <span className="tabular font-display text-[1.45rem] text-ink">
-                  {formatRating(restaurant.rating.value, locale)} <span className="font-sans text-[0.95rem] font-medium text-muted">/ 5</span>
+                  {formatRating(restaurant.rating.value, locale)} <span className="font-sans text-[0.95rem] text-muted">/ 5</span>
                 </span>
                 <span className="flex items-center gap-2 text-[0.85rem] text-muted">
                   <Stars value={restaurant.rating.value} idPrefix="hero" size={14} className="text-tairyo" />
@@ -103,14 +103,14 @@ export function Hero({ locale }: { locale: Locale }) {
         <div className="relative mx-auto w-full max-w-md lg:col-span-5 lg:max-w-none">
           {/* Красное «солнце» и волны — фон их карты; декор. */}
           <div aria-hidden="true" className="absolute -top-8 -right-10 h-56 w-56 rounded-full bg-tairyo sm:h-72 sm:w-72" />
-          <div aria-hidden="true" className="absolute -bottom-10 -left-12 h-64 w-64 overflow-hidden rounded-full">
+          <div aria-hidden="true" className="absolute bottom-16 -left-12 h-64 w-64 overflow-hidden rounded-full">
             <Seigaiha id="hero-waves" r={18} lineClass="stroke-tairyo/35" />
           </div>
           <figure className="relative">
             <div className="overflow-hidden rounded-[2rem] border-[6px] border-paper bg-paper-deep">
-              <Img photo={photos.hero} locale={locale} priority sizes="(min-width: 1280px) 500px, (min-width: 1024px) 40vw, 92vw" className="aspect-[4/5] w-full object-cover" />
+              <Img photo={photos.hero} locale={locale} priority sizes="(min-width: 1280px) 500px, (min-width: 1024px) 40vw, (min-width: 488px) 436px, calc(100vw - 52px)" className="aspect-[4/5] w-full object-cover" />
             </div>
-            <figcaption className="mt-4 flex items-start gap-3 text-[0.9rem] leading-snug text-muted">
+            <figcaption className="relative mt-4 flex items-start gap-3 text-[0.9rem] leading-snug text-muted">
               <span aria-hidden="true" className="mt-2 h-px w-6 shrink-0 bg-tairyo" />
               {h.caption}
             </figcaption>

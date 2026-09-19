@@ -23,8 +23,8 @@ export const hrefFor = (locale: Locale) => `${basePath}${pathFor(locale)}`;
 export function buildMetadata(locale: Locale): Metadata {
   const dict = getDictionary(locale);
   const path = pathFor(locale);
-  // Превью соцсетей — public/og.jpg 1200×630 (кадр ленты и поезда): JPEG, а не WebP, — его понимают все мессенджеры.
-  const og = photos.hero;
+  // Превью соцсетей — public/og.jpg 1200×630 из кадра tren-bao (#261, пароль Wi-Fi на табличке закрыт): JPEG, а не WebP, — его понимают все мессенджеры.
+  const og = photos.trenBao;
 
   return {
     ...(siteUrl ? { metadataBase: new URL(siteUrl + basePath + "/") } : {}),

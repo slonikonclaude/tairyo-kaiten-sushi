@@ -54,10 +54,18 @@ const FIXES = [
   ["9033", "name", "Lambrusco valmarone", "Lambrusco Valmarone", "как у №9025"],
   ["9034", "name", "Visiega Vaca Brut", "Visiega Cava Brut", "перестановка букв: третья позиция — «Visiega Cava Brut Rosado»"],
   ["9035", "name", "Visiega Vaca Semi", "Visiega Cava Semi", "перестановка букв, как выше"],
+  ["8004", "description", "matcha , judía", "matcha, judía", "пробел перед запятой"],
+  ["9001", "name", "Agua 50cl", "Agua 50 cl", "как «Sake 150 ml»"],
+  ["9020", "name", "300ml", "300 ml", "как «Sake 300 ml»"],
+  ["9032", "name", "D.O ", "D.O. ", "сокращение без точки"],
 ];
 
 /** Правки английского после арбитра: [номер, поле, стало, причина]. */
-const EN_FIXES = [["9029", "nameEn", "Oroya “Especial Sushi”", "«Especial Sushi» — надпись на этикетке, а не описание; не переводим"]];
+const EN_FIXES = [
+  ["9029", "nameEn", "Oroya “Especial Sushi”", "«Especial Sushi» — надпись на этикетке, а не описание; не переводим"],
+  ["803", "nameEn", "Noodles with vegetables and egg", "ES-название включает описание, а описание у 803/804 убрано — EN-название должно включать его тоже"],
+  ["804", "nameEn", "Udon with vegetables and egg", "как у 803"],
+];
 
 /** Разделы карты → вкладки сайта (DESIGN.md §7.5). id — для якорей и ключей. */
 const GROUPS = [
@@ -125,12 +133,18 @@ const items = final.items.map((it, key) => {
     fixesLeft.delete([num, field, from].join("|"));
   }
   // «Picante +» / «Picante ++» — значок на сайте (spicy), из текста убираем.
-  desc = desc.replace(/\s*Picante \+\+?,?\s*/g, " ").replace(/^\s*con /, "Con ").trim();
+  desc = desc.replace(/\s*Picante \+\+?,?\s*/g, " ").trim();
+  // Описание всегда с заглавной («relleno de judía roja» у дораяки, «con salsa…»).
+  desc = desc.charAt(0).toUpperCase() + desc.slice(1);
   if (desc && !/[.)]$/.test(desc)) desc += ".";
   // Описание в скобках (урамаки с угрём) — без скобок.
   desc = desc.replace(/^\((.*)\)\.?$/, (_, s) => s.charAt(0).toUpperCase() + s.slice(1) + ".");
   // «Tallarines con verdura y huevo» / «Udon …»: описание повторяет название — не выводим.
   if (/^(803|804)$/.test(it.num)) desc = "";
+
+  // Английское описание — с точкой в конце, как испанское («Serves 1–2»).
+  let descEn = t.descEn;
+  if (descEn && !/[.)]$/.test(descEn)) descEn += ".";
 
   let nameEn = t.nameEn;
   for (const [num, field, to] of EN_FIXES) if (num === it.num && field === "nameEn") nameEn = to;
@@ -141,7 +155,7 @@ const items = final.items.map((it, key) => {
     // №8003 в карте дважды (чизкейк с матчей и дораяки) — у дораяки номер не показываем.
     hideNum: it.num === "8003" && /Dorayaki/i.test(it.name),
     name: { es: name, en: nameEn },
-    desc: desc ? { es: desc, en: t.descEn } : null,
+    desc: desc ? { es: desc, en: descEn } : null,
     pieces: it.pieces ? { es: pieceEs(it.pieces), en: t.piecesEn } : null,
     spicy: it.spicy,
     allergens: it.allergens,

@@ -12,7 +12,7 @@ import "./globals.css";
  * языках: по адресу не понять, на каком языке искали страницу.
  */
 export const metadata: Metadata = {
-  title: "Página no encontrada · Tairyo Kaiten Sushi Valencia",
+  title: "Página no encontrada · Page not found · Tairyo Kaiten Sushi Valencia",
   robots: { index: false },
 };
 

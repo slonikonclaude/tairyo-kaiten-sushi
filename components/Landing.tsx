@@ -11,6 +11,9 @@ import { Local } from "@/components/Local";
 import { Prices } from "@/components/Prices";
 import { Reviews } from "@/components/Reviews";
 import { Visit } from "@/components/Visit";
+import { preload } from "react-dom";
+import { LOGO } from "@/components/Logo";
+import { withBase } from "@/lib/basePath";
 import type { Locale } from "@/lib/dictionaries";
 
 /**
@@ -19,6 +22,9 @@ import type { Locale } from "@/lib/dictionaries";
  * Обе языковые страницы собираются из одного компонента.
  */
 export function Landing({ locale }: { locale: Locale }) {
+  // Вордмарк в шапке — CSS-маска: без предзагрузки браузер находит файл только после раскладки.
+  // Здесь, а не в RootShell: на 404 шапки нет, и предзагрузка висела бы впустую.
+  preload(withBase(LOGO.wordmark), { as: "image", fetchPriority: "high", crossOrigin: "anonymous" });
   return (
     <>
       <JsonLd locale={locale} />

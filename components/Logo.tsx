@@ -10,7 +10,7 @@ import { withBase } from "@/lib/basePath";
 export const LOGO = {
   ink: "/brand/logo-ink.webp",
   red: "/brand/logo-red.webp",
-  /** «TAIRYO / KAITEN SUSHI» без кольца — для шапки (720×246). */
+  /** «TAIRYO / KAITEN SUSHI» без кольца — для шапки (270×92). */
   wordmark: "/brand/wordmark.webp",
   markInk: "/brand/mark-ink.webp",
   markRed: "/brand/mark-red.webp",
@@ -18,7 +18,7 @@ export const LOGO = {
 
 const mask = (src: string) => ({ "--mask": `url("${withBase(src)}")` }) as CSSProperties;
 
-/** Горизонтальный вордмарк (ширина : высота ≈ 2,93). */
+/** Горизонтальный вордмарк (270×92, ширина : высота ≈ 2,93; 3× от 30 px шапки). */
 export function Wordmark({ height = 30, className = "", label }: { height?: number; className?: string; label?: string }) {
   return (
     <span className={`inline-flex ${className}`}>
@@ -28,9 +28,9 @@ export function Wordmark({ height = 30, className = "", label }: { height?: numb
   );
 }
 
-/** Полный круглый логотип (900×760): кольцо, ролл, два слова, иероглифы. */
+/** Полный круглый логотип (540×456, 3× от 180 px на 404): кольцо, ролл, два слова, иероглифы. */
 export function LogoRound({ width = 240, className = "", label }: { width?: number; className?: string; label?: string }) {
-  const height = Math.round((width * 760) / 900);
+  const height = Math.round((width * 456) / 540);
   return (
     <span className={`relative inline-block shrink-0 ${className}`} style={{ width, height }}>
       <span aria-hidden="true" className="logo-mask absolute inset-0 bg-tairyo" style={mask(LOGO.red)} />

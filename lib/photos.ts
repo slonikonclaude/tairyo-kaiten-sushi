@@ -4,9 +4,9 @@
  * фактическая ширина считается в srcFor). width/height — размеры `_photos/<name>.jpg`
  * из photo-manifest.json, против сдвига вёрстки.
  *
- * Откуда (DESIGN.md §1): фото гостей и ресторана из карточки Google Maps (номер кадра в
+ * Откуда (DESIGN.md §1): фото гостей из карточки Google Maps (номер кадра в
  * `_data/maps/all-photos.json` — в комментарии), отобраны по каталогу `_data/photo-sheets/`.
- * Без лиц; руки и водяной знак телефона обрезаны. Блюда подписаны только там, где их можно
+ * Без лиц; руки, лица по краям и водяной знак телефона обрезаны, пароль Wi-Fi на табличке стола (tren-bao) закрыт. Блюда подписаны только там, где их можно
  * опознать по карте (бао с уткой — №3006, чизкейк с матчей — №8003); иначе подпись общая.
  * `position` — точка кадрирования для object-cover.
  */
@@ -41,14 +41,14 @@ export const photos = {
   ),
 
   // Cómo funciona
-  trenBao: p("tren-bao", 2400, 1009, "El tren bala en el carril superior junto a un vagón con dos baos al vapor en sus cestas de bambú", "The bullet train on the upper rail next to a wagon carrying two steamed bao in bamboo baskets", "55% 50%"), // #261
+  trenBao: p("tren-bao", 1960, 1009, "El tren bala en el carril superior junto a un vagón con dos baos al vapor en sus vaporeras", "The bullet train on the upper rail next to a wagon carrying two steamed bao in their steamers", "55% 50%"), // #261
   cinta: p("cinta", 2400, 3200, "La cinta haciendo curva, con platos de nigiri y temaki pasando", "The belt curving round, with plates of nigiri and temaki going by", "50% 60%"), // #437
   mesa: p("mesa", 2400, 2880, "Una mesa junto a la cinta llena de platos de colores: makis, nigiris con salsa y un tartar", "A table by the belt full of colourful plates: maki, nigiri with sauce and a tartare", "50% 55%"), // #55
 
   // La carta
   nigiris: p("nigiris", 2400, 2656, "Nigiris de salmón y de atún, y dos con salsa y topping crujiente, en un plato azul sobre el mantel de Tairyo", "Salmon and tuna nigiri, plus two topped with sauce and crispy flakes, on a blue plate on the Tairyo placemat", "50% 45%"), // #196
   baoPato: p("bao-pato", 2400, 3200, "Bao de pato con lonchas de pato, salsa oscura y lechuga", "Duck bao with sliced duck, dark sauce and lettuce", "50% 45%"), // #211
-  matcha: p("matcha", 2400, 3200, "Porción de tarta de queso vasca de matcha, verde por dentro y tostada por fuera", "A slice of Basque-style matcha cheesecake, green inside and caramelised outside", "50% 40%"), // #217
+  matcha: p("matcha", 2400, 3200, "Porción de tarta de queso vasca de matcha, verde por dentro y tostada por fuera", "A slice of matcha Basque cheesecake, green inside and caramelised outside", "50% 40%"), // #217
   trenRefrescos: p("tren-refrescos", 2016, 3200, "El shinkansen con su vagón cargado de botellas de agua y refrescos, sobre la cinta, bajo el techo de luz amarilla", "The shinkansen with its wagon loaded with bottles of water and soft drinks, above the belt under the yellow light ceiling", "45% 45%"), // #414
 
   // El local
@@ -61,7 +61,7 @@ export const photos = {
   kokeshi: p("kokeshi", 2400, 3200, "La muñeca kokeshi gigante de kimono rojo en la puerta", "The giant red-kimono kokeshi doll at the door", "50% 50%"), // #96
   banderas: p("banderas", 2400, 3200, "Banderas nobori con caligrafía japonesa y farolillos de papel colgando del techo", "Nobori banners with Japanese calligraphy and paper lanterns hanging from the ceiling", "50% 40%"), // #143
   onigiri: p("onigiri", 2400, 3200, "Un onigiri con cara de alga en un plato rosa, pasando por la cinta", "An onigiri with a seaweed face on a pink plate, going by on the belt", "50% 55%"), // #210
-  baoConejo: p("bao-conejo", 2400, 3200, "Un bollito al vapor con forma de conejo en su cesta de bambú", "A rabbit-shaped steamed bun in its bamboo basket", "50% 55%"), // #238
+  baoConejo: p("bao-conejo", 2400, 3200, "Un bollito al vapor con forma de conejo en su vaporera", "A rabbit-shaped steamed bun in its little steamer", "50% 55%"), // #238
   neon: p("neon", 2400, 1800, "El logo luminoso de Tairyo Kaiten Sushi, con sus kanji, en una pared de madera", "The illuminated Tairyo Kaiten Sushi logo, with its kanji, on a wooden wall", "50% 45%"), // #248
   inari: p("inari", 2400, 3200, "Inari relleno con dados de atún y mango en un plato amarillo", "Inari pouch filled with diced tuna and mango on a yellow plate", "50% 50%"), // #34
 

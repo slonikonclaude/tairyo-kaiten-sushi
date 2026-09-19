@@ -3,23 +3,25 @@ import { Reveal } from "@/components/Reveal";
 import { Section } from "@/components/Section";
 import { IconExternal } from "@/components/icons";
 import { getDictionary, type Locale } from "@/lib/dictionaries";
-import { cartaPdf } from "@/lib/menu";
+import { carta, cartaPdf } from "@/lib/menu";
 
 /**
  * «La carta» (DESIGN.md §7.5): их PDF из девяти картинок — здесь текстом, вкладками.
  * `overflow-x-clip`, а не hidden: липкая лента вкладок внутри секции иначе не липнет.
  */
+/** Сколько позиций входит в буфет: все блюда вкладок Sushi и Cocina без цены (88 по карте 01.2026). */
+const included = [...carta.sushi, ...carta.cocina].reduce((n, g) => n + g.dishes.filter((d) => d.prices.length === 0).length, 0);
+
 export function Carta({ locale }: { locale: Locale }) {
   const c = getDictionary(locale).carta;
   return (
     <Section
       id="carta"
       eyebrow={c.eyebrow}
-      title={c.title}
+      title={c.title(included)}
       note={c.note}
       tone="deep"
       kanji="お品書き"
-      className="overflow-x-clip"
       headerRight={
         <a
           href={cartaPdf}

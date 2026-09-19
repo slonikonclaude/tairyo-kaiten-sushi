@@ -78,8 +78,8 @@ export function MenuTabs({ locale }: { locale: Locale }) {
 
         <div className="mt-12 gap-14 md:columns-2">
           {carta[tab].map((g) => (
-            <section key={g.id} aria-labelledby={`${base}-${g.id}`} className="mb-12 break-inside-avoid">
-              <h3 id={`${base}-${g.id}`} className="flex items-baseline justify-between gap-4 border-b-2 border-ink pb-2 font-display text-[1.45rem] leading-tight text-ink">
+            <div key={g.id} className="mb-12 break-inside-avoid">
+              <h3 className="flex items-baseline justify-between gap-4 border-b-2 border-ink pb-2 font-display text-[1.45rem] leading-tight text-ink">
                 {g.title[locale]}
                 <span className="tabular font-sans text-[0.8rem] font-bold tracking-[0.12em] text-muted">{g.dishes.length}</span>
               </h3>
@@ -88,7 +88,7 @@ export function MenuTabs({ locale }: { locale: Locale }) {
                   <DishRow key={`${d.num}-${d.name.es}`} dish={d} locale={locale} />
                 ))}
               </ul>
-            </section>
+            </div>
           ))}
         </div>
       </>
@@ -113,7 +113,7 @@ export function MenuTabs({ locale }: { locale: Locale }) {
                 onClick={() => select(id)}
                 onKeyDown={(e) => onKey(e, i)}
                 className={`inline-flex min-h-11 shrink-0 cursor-pointer items-center gap-2 rounded-full px-4 text-[0.95rem] font-bold whitespace-nowrap transition-colors duration-200 focus-visible:outline-offset-[-4px] ${
-                  selected ? "bg-ink text-on-dark focus-visible:outline-on-dark" : "text-ink hover:bg-paper"
+                  selected ? "bg-ink text-on-dark focus-visible:outline-on-dark forced-colors:underline forced-colors:decoration-2 forced-colors:underline-offset-4" : "text-ink hover:bg-paper"
                 }`}
               >
                 {c.tabs[id]}

@@ -56,7 +56,7 @@ export function HoursTable({ locale }: { locale: Locale }) {
 
   return (
     <div>
-      <p className="tabular min-h-7 font-bold text-ink" aria-live="polite">
+      <p className="tabular min-h-7 font-bold text-ink">
         {status ? (
           <span className="inline-flex items-center gap-2">
             <span aria-hidden="true" className={`inline-block h-2.5 w-2.5 rounded-full ${isOpen ? "bg-tairyo" : "border-2 border-muted"}`} />

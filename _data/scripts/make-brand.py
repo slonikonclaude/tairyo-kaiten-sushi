@@ -5,8 +5,8 @@
 #   красный = clip((R − (G+B)/2 − 45) / 110) при R > 120
 # Бледные линии узора (L > 200, «краснота» < 45) не попадают ни в одну маску.
 # Затем: вордмарк = строки букв «TAIRYO / KAITEN SUSHI» из маски туши; знак = ролл сверху;
-# иконки app/icon.png (512) и app/apple-icon.png (180) — знак на бумаге.
-# WebP: node -e "sharp(png).webp({quality:90, alphaQuality:100})" → public/brand/*.webp
+# иконки app/icon.png (96) и app/apple-icon.png (180) — знак на бумаге.
+# WebP: node -e "sharp(png).webp({quality:90, alphaQuality:100})" → public/brand/*.webp, PNG удалить.
 from PIL import Image
 import numpy as np
 
@@ -35,8 +35,9 @@ def rgba(mask_l):
 
 
 ink_l, red_l = alpha(ink, 900), alpha(redA, 900)
-rgba(ink_l).save("public/brand/logo-ink.png")
-rgba(red_l).save("public/brand/logo-red.png")
+# На сайте круглый логотип не больше 180 CSS px (404) → 3× = 540 px; маски 900 px — только для вырезок ниже.
+for m, name in ((ink_l, "logo-ink"), (red_l, "logo-red")):
+    rgba(m.resize((540, round(m.height * 540 / m.width)), Image.LANCZOS)).save(f"public/brand/{name}.png")
 
 # Полосы строк по маске туши (900 px): ролл 6–203, TAIRYO 255–434, KAITEN SUSHI 455–551, иероглифы 584–647.
 arr = np.asarray(ink_l)
@@ -50,7 +51,8 @@ def cols(r0, r1):
 
 wx0, wx1 = cols(255, 551)
 wm = ink_l.crop((wx0 - 6, 249, wx1 + 6, 557))
-rgba(wm.resize((720, round(wm.height * 720 / wm.width)), Image.LANCZOS)).save("public/brand/wordmark.png")
+# Вордмарк в шапке — 88×30 CSS px → 3× ≈ 270 px.
+rgba(wm.resize((270, round(wm.height * 270 / wm.width)), Image.LANCZOS)).save("public/brand/wordmark.png")
 
 sx0, sx1 = cols(6, 203)
 box = (sx0 - 4, 2, sx1 + 4, 207)
@@ -72,4 +74,6 @@ def icon(size, path, pad=0.14):
 
 
 icon(512, "app/icon.png")
+# Фавикон — 96×96 и 48 цветов (~2 КБ вместо 47): кратно 48 для Google, резкий во вкладке при DPR 2–3.
+Image.open("app/icon.png").convert("RGB").resize((96, 96), Image.LANCZOS).quantize(colors=48).save("app/icon.png", optimize=True)
 icon(180, "app/apple-icon.png")

@@ -25,7 +25,7 @@ export function Footer({ locale }: { locale: Locale }) {
           <p className="tabular mt-3">{hoursLine}</p>
           <p className="text-on-dark-muted">{dict.hero.everyDay}</p>
           <a href={`tel:${restaurant.phone.tel}`} className={`tabular ${link}`}>
-            {restaurant.phone.display}
+            {restaurant.phone.international}
           </a>
         </div>
         <nav aria-label={f.links} className="flex flex-col text-[0.97rem]">

@@ -68,8 +68,8 @@ export function Prices({ locale }: { locale: Locale }) {
                   <Seigaiha id="tier-waves" r={14} lineClass="stroke-tairyo/30" />
                 </div>
               ) : null}
-              <div className="relative flex min-h-8 items-center justify-between gap-3">
-                <h3 className="font-display text-[1.35rem] leading-tight text-ink">{tier.name}</h3>
+              <div className="relative flex min-h-8 flex-wrap items-center justify-between gap-x-3 gap-y-2">
+                <h3 className="balance font-display text-[1.35rem] leading-tight text-ink">{tier.name}</h3>
                 {current && now ? (
                   <span className="shrink-0 rounded-full bg-tairyo px-3 py-1 text-[0.78rem] font-bold text-on-red">{pr.now[now.when]}</span>
                 ) : null}

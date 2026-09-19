@@ -38,7 +38,7 @@ export function Reviews({ locale }: { locale: Locale }) {
                 <div key={h.stars} className="grid grid-cols-[5rem_1fr_3rem] items-center gap-3 text-[0.9rem]">
                   <dt className="text-muted">{r.starsLabel(h.stars)}</dt>
                   <dd aria-hidden="true" className="h-2 overflow-hidden rounded-full bg-paper">
-                    <span className="block h-full rounded-full bg-tairyo" style={{ width: `${Math.max(1.5, (h.count / max) * 100)}%` }} />
+                    <span className="block h-full rounded-full bg-tairyo forced-colors:bg-[CanvasText]" style={{ width: `${Math.max(1.5, (h.count / max) * 100)}%` }} />
                   </dd>
                   <dd className="tabular text-right text-ink">{formatCount(h.count, locale)}</dd>
                 </div>

@@ -30,7 +30,7 @@ export function CtaBand({ locale }: { locale: Locale }) {
             className="tabular inline-flex min-h-13 items-center justify-center gap-2 rounded-full bg-ink px-8 text-base font-bold whitespace-nowrap text-on-dark transition-colors duration-200 hover:bg-ink-soft"
           >
             <IconPhone width={18} height={18} />
-            {dict.cta.callLong(restaurant.phone.display)}
+            {dict.cta.callLong(locale === "en" ? restaurant.phone.international : restaurant.phone.display)}
           </a>
           <a
             href={restaurant.reserveOnline[locale]}

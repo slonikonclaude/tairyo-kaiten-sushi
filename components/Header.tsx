@@ -88,7 +88,7 @@ export function Header({ locale }: { locale: Locale }) {
 
       <div className="mx-auto flex h-18 max-w-7xl items-center justify-between gap-3 px-5 sm:px-8">
         <a href={hrefFor(locale)} className="flex min-h-11 min-w-0 items-center" aria-label={dict.nav.home}>
-          <Wordmark height={30} className="max-[379px]:hidden" />
+          <Wordmark height={30} className="max-[380px]:hidden" />
           <Wordmark height={24} className="min-[380px]:hidden" />
         </a>
 
@@ -106,14 +106,14 @@ export function Header({ locale }: { locale: Locale }) {
             hrefLang={dict.otherLocale.code}
             lang={dict.otherLocale.code}
             aria-label={`${dict.otherLocale.label} — ${dict.otherLocale.aria}`}
-            className={`flex h-11 min-w-11 items-center justify-center rounded-full border px-3 text-xs font-medium tracking-[0.18em] transition-colors duration-200 ${ring}`}
+            className={`flex h-11 min-w-11 items-center justify-center rounded-full border px-3 text-xs font-bold tracking-[0.18em] transition-colors duration-200 ${ring}`}
           >
             {dict.otherLocale.label}
           </a>
 
           <a
             href={`tel:${restaurant.phone.tel}`}
-            aria-label={dict.cta.reserveAria(restaurant.phone.display)}
+            aria-label={dict.cta.reserveAria(locale === "en" ? restaurant.phone.international : restaurant.phone.display)}
             className="inline-flex h-11 min-w-11 items-center justify-center gap-2 rounded-full bg-tairyo px-3 text-[0.95rem] font-bold text-on-red transition-colors duration-200 hover:bg-tairyo-deep min-[420px]:px-5"
           >
             <IconPhone width={18} height={18} />
@@ -151,7 +151,7 @@ export function Header({ locale }: { locale: Locale }) {
               className="tabular flex min-h-12 flex-1 items-center justify-center gap-2 rounded-full bg-tairyo px-5 text-base font-bold text-on-red"
             >
               <IconPhone width={18} height={18} />
-              {dict.cta.callLong(restaurant.phone.display)}
+              {dict.cta.callLong(locale === "en" ? restaurant.phone.international : restaurant.phone.display)}
             </a>
             <a
               href={restaurant.reserveOnline[locale]}

@@ -16,7 +16,7 @@ export function How({ locale }: { locale: Locale }) {
   const h = getDictionary(locale).how;
 
   return (
-    <Section id="como-funciona" eyebrow={h.eyebrow} title={h.title} note={h.note} tone="deep" kanji="回転">
+    <Section id="como-funciona" eyebrow={h.eyebrow} eyebrowJa={h.eyebrowJa} title={h.title} note={h.note} tone="deep" kanji="回転">
       <div className="grid grid-cols-[minmax(0,1fr)] gap-12 lg:grid-cols-12 lg:gap-14">
         <RevealGroup as="ol" className="flex flex-col lg:col-span-6">
           {h.steps.map((s, i) => {
@@ -27,7 +27,7 @@ export function How({ locale }: { locale: Locale }) {
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <div>
-                  <h3 className="flex items-center gap-3 font-display text-[1.3rem] leading-snug text-ink sm:text-[1.45rem]">
+                  <h3 className="balance flex items-center gap-3 font-display text-[1.15rem] leading-snug text-ink min-[360px]:text-[1.3rem] sm:text-[1.45rem]">
                     <Icon width={24} height={24} className="shrink-0 text-tairyo-deep" />
                     {s.title}
                   </h3>

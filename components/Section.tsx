@@ -13,6 +13,7 @@ export type Tone = "light" | "deep" | "dark";
 export function Section({
   id,
   eyebrow,
+  eyebrowJa,
   title,
   note,
   tone = "light",
@@ -23,6 +24,8 @@ export function Section({
 }: {
   id: string;
   eyebrow: string;
+  /** Японское слово после надзаголовка (回転 и т. п.) — отдельным span с lang="ja". */
+  eyebrowJa?: string;
   title: string;
   note?: ReactNode;
   tone?: Tone;
@@ -34,12 +37,12 @@ export function Section({
   const dark = tone === "dark";
 
   return (
-    <section id={id} aria-labelledby={`${id}-title`} className={`tone-${tone} relative py-20 sm:py-28 ${className}`}>
+    <section id={id} aria-labelledby={`${id}-title`} className={`tone-${tone} relative overflow-x-clip py-20 sm:py-28 ${className}`}>
       {kanji ? (
         <span
           aria-hidden="true"
           lang="ja"
-          className={`pointer-events-none absolute top-10 right-3 hidden font-display text-[9rem] leading-none select-none [writing-mode:vertical-rl] lg:block xl:right-10 ${
+          className={`pointer-events-none absolute top-10 right-10 hidden font-display text-[9rem] leading-none select-none [writing-mode:vertical-rl] lg:block ${
             dark ? "text-on-dark/[0.05]" : "text-ink/[0.045]"
           }`}
         >
@@ -50,7 +53,15 @@ export function Section({
         <Reveal as="header" className="mb-12 sm:mb-16">
           <div className="flex flex-wrap items-end justify-between gap-x-10 gap-y-6">
             <div className="min-w-0">
-              <p className={`eyebrow ${dark ? "text-tairyo-bright" : "text-tairyo-deep"}`}>{eyebrow}</p>
+              <p className={`eyebrow ${dark ? "text-tairyo-bright" : "text-tairyo-deep"}`}>
+                {eyebrow}
+                {eyebrowJa ? (
+                  <>
+                    {" · "}
+                    <span lang="ja">{eyebrowJa}</span>
+                  </>
+                ) : null}
+              </p>
               <h2
                 id={`${id}-title`}
                 className={`balance mt-4 font-display text-[2.1rem] leading-[1.12] sm:text-[3rem] ${dark ? "text-on-dark" : "text-ink"}`}

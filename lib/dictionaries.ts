@@ -16,7 +16,7 @@ const es = {
   meta: {
     title: "Tairyo Kaiten Sushi Valencia · Buffet de sushi giratorio sin límites",
     description:
-      "Kaiten sushi en C/ d'Isabel la Catòlica, 22 (L'Eixample): sushi, platos calientes y postres sin límite desde 20,95 €, con la cinta giratoria y trenes bala que llevan la carta a tu mesa. Todos los días, 13:00–16:30 y 20:00–23:30.",
+      "Kaiten sushi sin límite en C/ d'Isabel la Catòlica, 22 (Valencia): cinta giratoria y trenes bala que te traen lo que pides. Desde 20,95 €. Todos los días.",
   },
 
   nav: {
@@ -64,7 +64,8 @@ const es = {
   },
 
   how: {
-    eyebrow: "Kaiten · 回転",
+    eyebrow: "Kaiten",
+    eyebrowJa: "回転",
     title: "Así funciona la cinta",
     note: "Kaiten sushi es «sushi que gira»: los platos pasan delante de ti y tú eliges. En Tairyo hay además un segundo nivel: por encima de la cinta circulan trenes que traen la bebida y lo que pides de la carta.",
     steps: [
@@ -86,19 +87,19 @@ const es = {
       },
     ],
     trainCaption: "Baos al vapor llegando en tren: así viaja lo que se pide a la carta.",
-    beltCaption: "La cinta: platos de colores bajo cúpulas transparentes.",
+    beltCaption: "La cinta: temakis, nigiris y gunkan en platos de colores.",
     sourceNote: "Cómo funciona, según su web, su carta, su Instagram y las reseñas de Google.",
   },
 
   prices: {
     eyebrow: "Precios del buffet",
-    title: "Un precio cerrado, todo incluido",
-    note: "Incluye toda la comida de la cinta y de la carta del buffet, y el postre. La bebida va aparte.",
+    title: "Un precio cerrado, sin límite",
+    note: "Incluye todo lo que pasa por la cinta, postres incluidos, y los platos sin precio de la carta. La bebida y lo de «Fuera de buffet» van aparte.",
     perPerson: "por persona",
     tiers: {
       lunch: { name: "Mediodía", when: "De lunes a viernes, no festivos" },
       dinner: { name: "Cena", when: "De lunes a jueves, no festivos" },
-      weekend: { name: "Viernes noche y fin de semana", when: "Viernes noche, sábado, domingo y festivos" },
+      weekend: { name: "Viernes noche y fin de semana", when: "Viernes noche, sábado, domingo y festivos" },
     },
     kids: "Niños",
     kidsUnder: "Menores de 1,20 m",
@@ -110,7 +111,7 @@ const es = {
       lunchTomorrow: "Mañana a mediodía",
       holiday: "En festivos se aplica la tarifa de fin de semana.",
     },
-    rulesTitle: "Bueno saber",
+    rulesTitle: "A tener en cuenta",
     rules: [
       "La bebida no entra en el menú: mínimo una por persona.",
       "Se cobran 2 € por cada plato que se deja sin comer.",
@@ -122,12 +123,12 @@ const es = {
 
   carta: {
     eyebrow: "La carta",
-    title: "Más de cien platos, todo incluido",
+    title: (n: number) => `${n} platos incluidos en el buffet`,
     note: "La carta del local, completa y con sus alérgenos. Todo lo que no tiene precio entra en el buffet: si no pasa por la cinta, pídelo al personal y llega en tren.",
     tabsLabel: "Partes de la carta",
     tabs: { sushi: "Sushi", cocina: "Cocina caliente", fuera: "Fuera de buffet", bebidas: "Bebidas" },
     intros: {
-      sushi: "Nigiris, gunkan, hosomaki, uramakis, temakis y futomakis. Todo incluido en el buffet.",
+      sushi: "Nigiris, makis de todo tipo, gunkan y temakis. Todo incluido en el buffet.",
       cocina: "Entrantes, sopas, arroces y tallarines, fritos, brochetas, platos calientes y al vapor. Todo incluido en el buffet.",
       fuera: "Lo que no entra en el buffet: se pide aparte y se suma a la cuenta.",
       bebidas: "La bebida no entra en el buffet: mínimo una por persona.",
@@ -163,7 +164,7 @@ const es = {
     photoCaptions: {
       sushi: "Nigiris de salmón y de atún, sobre el mantel de Tairyo.",
       cocina: "Bao de pato, n.º 3006.",
-      fuera: "Tarta de queso vasca de matcha.",
+      fuera: "Tarta de queso vasca de matcha, n.º 8003.",
       bebidas: "Agua y refrescos viajando en el tren bala.",
     },
   },
@@ -175,7 +176,7 @@ const es = {
       "Se entra por una rampa bajo decenas de banderas nobori, farolillos de ratán y máscaras japonesas. Abajo, la sala: paneles shoji iluminados en amarillo, techo de madera y la cinta recorriéndolo todo.",
       "Sobre la cinta, en su propio carril, circulan trenes en miniatura: un shinkansen blanco, una locomotora de vapor negra y hasta un camión. En la puerta, una kokeshi gigante da la bienvenida.",
     ],
-    factsTitle: "Bueno saber",
+    factsTitle: "Datos prácticos",
     facts: {
       wheelchair: "Entrada y mesas accesibles en silla de ruedas",
       kids: "Adecuado para niños: los trenes son la estrella",
@@ -200,9 +201,9 @@ const es = {
     lunch: "Comida",
     dinner: "Cena",
     peak: (day: string, hour: string) => `${day}: lo más lleno, hacia las ${hour}.`,
-    calm: (day: string, hour: string) => `Lo más tranquilo: ${hour}.`,
-    table: { hour: "Hora", load: "Afluencia" },
-    busiest: "El momento más concurrido de la semana: sábado a las 21:00.",
+    calm: (hour: string) => `Para venir con calma: ${hour}.`,
+    table: { hour: "Hora", load: "Afluencia relativa (100 = la hora más concurrida de la semana)" },
+    busiest: "El momento más concurrido de la semana: sábado a las 21:00.",
   },
 
   reviews: {
@@ -234,8 +235,8 @@ const es = {
 
   visit: {
     eyebrow: "Visítanos",
-    title: "En pleno Ensanche",
-    near: "En L'Eixample, a un par de calles del Mercado de Colón.",
+    title: "En pleno Eixample",
+    near: "A un par de calles del Mercado de Colón.",
     hours: "Horario",
     today: "Hoy",
     openNow: (until: string) => `Abierto ahora · hasta las ${until}`,
@@ -263,7 +264,7 @@ const es = {
     alicante: (street: string) => `También en Alicante: ${street}`,
     officialSite: "Su web",
     sources:
-      "Datos: su web y su carta (enero de 2026), su Instagram y la ficha de Google Maps (consultados en septiembre de 2026). Fotos: clientes y restaurante en Google Maps.",
+      "Datos: su web y su carta (enero de 2026), su Instagram y la ficha de Google Maps (consultados en septiembre de 2026). Fotos: de clientes en Google Maps.",
   },
 
   notFound: {
@@ -281,7 +282,7 @@ const en: Dictionary = {
   meta: {
     title: "Tairyo Kaiten Sushi Valencia · All-you-can-eat conveyor-belt sushi",
     description:
-      "Kaiten sushi at C/ d'Isabel la Catòlica, 22 (L'Eixample): unlimited sushi, hot dishes and desserts from €20.95, with a rotating belt and bullet trains that bring à la carte orders to your table. Every day, 13:00–16:30 and 20:00–23:30.",
+      "All-you-can-eat kaiten sushi at C/ d'Isabel la Catòlica, 22, Valencia: a rotating belt and bullet trains that bring what you order. From €20.95. Open daily.",
   },
 
   nav: {
@@ -312,8 +313,8 @@ const en: Dictionary = {
 
   hero: {
     eyebrow: "Kaiten sushi · Valencia",
-    title: "All-you-can-eat conveyor-belt sushi",
-    slogan: "Endless Japan at one fixed price",
+    title: "Revolving sushi buffet, no limits",
+    slogan: "Endless Japan at one fixed price",
     lead: "The belt keeps bringing nigiri, maki, fried bites, hot dishes and desserts. Anything you don’t see going by, order from the menu: it comes to your table on a bullet train, just like your drinks.",
     factPrice: "Buffet from",
     factRating: "Google",
@@ -329,7 +330,8 @@ const en: Dictionary = {
   },
 
   how: {
-    eyebrow: "Kaiten · 回転",
+    eyebrow: "Kaiten",
+    eyebrowJa: "回転",
     title: "How the belt works",
     note: "Kaiten sushi means “rotating sushi”: the plates pass in front of you and you choose. Tairyo adds a second level: above the belt, trains bring your drinks and whatever you order from the menu.",
     steps: [
@@ -338,11 +340,11 @@ const en: Dictionary = {
         text: "The parade starts as soon as you sit: nigiri, maki, fried bites, hot dishes and desserts go by on the belt, many under a clear dome.",
       },
       {
-        title: "Take and repeat",
+        title: "Help yourself, again and again",
         text: "Everything on the belt is included. Try things and go back for more as often as you like.",
       },
       {
-        title: "Can’t see it? Order from the menu",
+        title: "Can’t see it? Order from the menu",
         text: "If a dish from the menu doesn’t come by, ask the staff for it (every dish has a number) — it’s included in the buffet too. It reaches your table on the upper rail, aboard a miniature train, just like your drinks.",
       },
       {
@@ -351,19 +353,19 @@ const en: Dictionary = {
       },
     ],
     trainCaption: "Steamed bao arriving by train: this is how à la carte orders travel.",
-    beltCaption: "The belt: colourful plates under clear domes.",
+    beltCaption: "The belt: temaki, nigiri and gunkan on colourful plates.",
     sourceNote: "How it works, according to their website, menu, Instagram and Google reviews.",
   },
 
   prices: {
     eyebrow: "Buffet prices",
-    title: "One fixed price, everything included",
-    note: "Covers all the food on the belt and on the buffet menu, dessert included. Drinks are extra.",
+    title: "One fixed price, no limits",
+    note: "Covers everything on the belt, desserts included, and every unpriced dish on the menu. Drinks and anything under “Not in the buffet” are extra.",
     perPerson: "per person",
     tiers: {
       lunch: { name: "Lunch", when: "Monday to Friday, except public holidays" },
       dinner: { name: "Dinner", when: "Monday to Thursday, except public holidays" },
-      weekend: { name: "Friday night & weekend", when: "Friday night, Saturday, Sunday and public holidays" },
+      weekend: { name: "Friday night & weekend", when: "Friday night, Saturday, Sunday and public holidays" },
     },
     kids: "Children",
     kidsUnder: "Under 1.20 m",
@@ -377,25 +379,25 @@ const en: Dictionary = {
     },
     rulesTitle: "Good to know",
     rules: [
-      "Drinks aren’t included: at least one per person.",
+      "Drinks aren’t included, and each person must order at least one.",
       "Every plate left uneaten is charged at €2.",
       "The buffet is for eating in only: it can’t be shared or taken away.",
-      "Dishes with a price on the menu (“Off the buffet”) are paid separately.",
+      "Dishes with a price on the menu (“Not in the buffet”) are paid separately.",
     ],
     source: "Prices from their January 2026 menu, the same on their website, their Instagram and the board at the door.",
   },
 
   carta: {
     eyebrow: "The menu",
-    title: "Over a hundred dishes, all included",
+    title: (n: number) => `${n} dishes included in the buffet`,
     note: "The restaurant’s full menu, with its allergens. Everything without a price is included in the buffet: if it doesn’t come by on the belt, ask the staff and it arrives by train. Spanish names are shown in grey, as the staff know them.",
-    tabsLabel: "Parts of the menu",
-    tabs: { sushi: "Sushi", cocina: "Hot kitchen", fuera: "Off the buffet", bebidas: "Drinks" },
+    tabsLabel: "Menu sections",
+    tabs: { sushi: "Sushi", cocina: "From the kitchen", fuera: "Not in the buffet", bebidas: "Drinks" },
     intros: {
       sushi: "Nigiri, gunkan, hosomaki, uramaki, temaki and futomaki. All included in the buffet.",
       cocina: "Starters, soups, rice and noodles, fried bites, skewers, hot and steamed dishes. All included in the buffet.",
       fuera: "Not included in the buffet: ordered separately and added to the bill.",
-      bebidas: "Drinks aren’t included in the buffet: at least one per person.",
+      bebidas: "Drinks aren’t included in the buffet, and each person must order at least one.",
     },
     supplementNote: "“+€1.00” is a supplement: paid on top of the buffet price.",
     number: "No.",
@@ -409,7 +411,7 @@ const en: Dictionary = {
       huevos: "Egg",
       pescado: "Fish",
       cacahuetes: "Peanut",
-      soja: "Soy",
+      soja: "Soya",
       lacteos: "Dairy",
       frutos_cascara: "Tree nuts",
       apio: "Celery",
@@ -428,7 +430,7 @@ const en: Dictionary = {
     photoCaptions: {
       sushi: "Salmon and tuna nigiri on the Tairyo placemat.",
       cocina: "Duck bao, no. 3006.",
-      fuera: "Basque-style matcha cheesecake.",
+      fuera: "Matcha Basque cheesecake, no. 8003.",
       bebidas: "Water and soft drinks riding the bullet train.",
     },
   },
@@ -440,7 +442,7 @@ const en: Dictionary = {
       "You walk in down a ramp under dozens of nobori banners, rattan lanterns and Japanese masks. Below is the dining room: shoji panels glowing yellow, a wooden ceiling and the belt running through it all.",
       "Above the belt, on their own rail, run miniature trains: a white shinkansen, a black steam locomotive and even a lorry. At the door, a giant kokeshi doll says hello.",
     ],
-    factsTitle: "Good to know",
+    factsTitle: "Practical details",
     facts: {
       wheelchair: "Wheelchair-accessible entrance and seating",
       kids: "Good for children: the trains steal the show",
@@ -465,9 +467,9 @@ const en: Dictionary = {
     lunch: "Lunch",
     dinner: "Dinner",
     peak: (day: string, hour: string) => `${day}: busiest around ${hour}.`,
-    calm: (day: string, hour: string) => `Quietest: ${hour}.`,
-    table: { hour: "Hour", load: "Footfall" },
-    busiest: "The busiest moment of the week: Saturday at 21:00.",
+    calm: (hour: string) => `Quietest time to arrive: ${hour}.`,
+    table: { hour: "Hour", load: "Relative footfall (100 = the busiest hour of the week)" },
+    busiest: "The busiest moment of the week: Saturday at 21:00.",
   },
 
   reviews: {
@@ -499,8 +501,8 @@ const en: Dictionary = {
 
   visit: {
     eyebrow: "Visit",
-    title: "In the heart of the Ensanche",
-    near: "In L'Eixample, a couple of streets from Mercado de Colón.",
+    title: "In the heart of L'Eixample",
+    near: "A couple of streets from Mercado de Colón.",
     hours: "Opening hours",
     today: "Today",
     openNow: (until: string) => `Open now · until ${until}`,
@@ -528,12 +530,12 @@ const en: Dictionary = {
     alicante: (street: string) => `Also in Alicante: ${street}`,
     officialSite: "Their website",
     sources:
-      "Data: their website and menu (January 2026), their Instagram and the Google Maps listing (checked in September 2026). Photos: customers and the restaurant on Google Maps.",
+      "Data: their website and menu (January 2026), their Instagram and the Google Maps listing (checked in September 2026). Photos: by customers on Google Maps.",
   },
 
   notFound: {
     title: "This page doesn’t exist",
-    home: "Back to home",
+    home: "Go to the homepage",
   },
 };
 

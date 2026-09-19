@@ -45,7 +45,7 @@ export const restaurant = {
   plusCode: "FJ9J+24 València",
 
   /** Google + Instagram «Reservas: 666 256 350». Стационарный 963 28 55 74 с их сайта не показываем (DESIGN.md §2.4). */
-  phone: { display: "666 25 63 50", tel: "+34666256350" },
+  phone: { display: "666 25 63 50", international: "+34 666 25 63 50", tel: "+34666256350" },
   email: "info@tairyokaitensushi.com",
 
   instagram: { handle: "tairyokaitensushivalencia", url: "https://www.instagram.com/tairyokaitensushivalencia/" },
